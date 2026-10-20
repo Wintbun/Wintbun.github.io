@@ -159,3 +159,58 @@ body.portal { margin: 0; color: var(--portal-text); font: 14px/1.6 -apple-system
   .is-searching .section-header { margin-bottom: 12px; }
 }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior: auto; } .portal * { transition: none !important; } }
+
+/* Scenic wallpapers and the daily dashboard */
+html { --portal-wallpaper: url('/wallpapers/mountain.webp'); }
+html[data-wallpaper='forest'] { --portal-wallpaper: url('/wallpapers/forest.webp'); }
+html[data-wallpaper='lake'] { --portal-wallpaper: url('/wallpapers/lake.webp'); }
+body.portal { isolation: isolate; background: #e7edee; --glass-surface: rgba(255,255,255,.78); }
+.dark body.portal { background: #152128; --glass-surface: rgba(21,32,43,.82); }
+.portal-wallpaper { position: fixed; inset: 0; z-index: -1; pointer-events: none; background-image: linear-gradient(180deg,rgba(233,242,246,.28),rgba(237,243,246,.66)), var(--portal-wallpaper); background-size: cover; background-position: center; }
+.dark .portal-wallpaper { background-image: linear-gradient(180deg,rgba(8,20,30,.42),rgba(8,20,30,.78)), var(--portal-wallpaper); }
+.portal-hero { padding-bottom: 28px; }
+.hero-search-area { margin-top: 48px; }
+.hero-kicker { color: #254b53; text-shadow: 0 1px 12px #ffffffbb; }
+.hero-search-area h1 { color: #172e36; text-shadow: 0 2px 22px #ffffffe0; }
+.hero-shortcuts, .search-caption { color: #304a51; text-shadow: 0 1px 12px #ffffffc0; }
+.dark .hero-kicker, .dark .hero-search-area h1, .dark .hero-shortcuts, .dark .search-caption { color: #f0f5f8; text-shadow: 0 2px 18px #071624cc; }
+.dark .hero-search-area h1 span { color: #c6e2fc; }
+.portal-topbar { position: relative; z-index: 45; }
+.wallpaper-picker { position: relative; margin-left: 10px; flex-shrink: 0; }
+.wallpaper-picker summary { list-style: none; cursor: pointer; color: var(--portal-muted); border: 1px solid var(--glass-line); border-radius: 15px; padding: 7px 12px; font-size: 11px; background: var(--glass-surface); }
+.wallpaper-picker summary::-webkit-details-marker { display: none; }
+.wallpaper-picker summary:focus-visible { outline: 2px solid var(--portal-accent); outline-offset: 3px; }
+.wallpaper-panel { position: absolute; right: 0; top: calc(100% + 13px); padding: 18px; width: 338px; max-width: calc(100vw - 30px); border-radius: 22px; background: var(--glass-solid); border: 1px solid var(--glass-edge); box-shadow: 0 16px 50px #10253230; }
+.wallpaper-panel>p { font-size: 13px; font-weight: 600; margin: 0 0 13px; }
+.wallpaper-options { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 8px; }
+.wallpaper-options button { background: transparent; border: 2px solid transparent; border-radius: 12px; padding: 3px; min-width: 0; color: var(--portal-muted); }
+.wallpaper-options button[aria-pressed='true'] { border-color: var(--portal-accent); color: var(--portal-accent); }
+.wallpaper-options img { display: block; width: 100%; height: 58px; object-fit: cover; border-radius: 8px; }
+.wallpaper-options span { display: block; margin-top: 6px; font-size: 10px; }
+.wallpaper-panel>a { display: block; margin-top: 14px; font-size: 9px; color: var(--portal-muted); }
+.daily-widgets { display: grid; grid-template-columns: 1fr 1.15fr 1fr; gap: 15px; max-width: 1800px; margin: 6px auto 8px; }
+.daily-card { display: flex; flex-direction: column; min-width: 0; padding: 19px 21px 14px; border: 1px solid var(--glass-edge); border-radius: 23px; background: var(--glass-surface); box-shadow: var(--glass-shadow); -webkit-backdrop-filter: blur(24px) saturate(150%); backdrop-filter: blur(24px) saturate(150%); }
+.daily-card-heading { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 26px; }
+.daily-card-heading h2 { display: flex; align-items: center; gap: 7px; font-size: 11px; font-weight: 600; letter-spacing: .03em; white-space: nowrap; margin: 0; }
+.daily-card-heading h2>span { color: var(--portal-accent); font-size: 17px; line-height: 1; }
+.daily-card select, .daily-card-heading button { background: transparent; color: var(--portal-muted); border: 1px solid var(--glass-line); border-radius: 12px; padding: 4px 8px; font-size: 10px; max-width: 90px; }
+.daily-card select option { color: var(--portal-text); background: var(--glass-solid); }
+.daily-card button:disabled { cursor: wait; opacity: .55; }
+.weather-main { display: flex; align-items: center; gap: 15px; min-height: 88px; }
+.weather-main>strong { font-size: 46px; font-weight: 450; letter-spacing: -.08em; font-variant-numeric: tabular-nums; line-height: 1; }
+.weather-main>strong small { font-size: 18px; letter-spacing: 0; }
+.weather-main p { margin: 3px 0; font-size: 10px; }
+#weather-range { color: var(--portal-muted); font-size: 9px; }
+.daily-card-footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 3px 9px; margin-top: auto; padding-top: 10px; border-top: 1px solid var(--glass-line); color: var(--portal-muted); font-size: 8px; }
+.daily-card-footer a:hover { color: var(--portal-accent); }
+.daily-quote { display: flex; flex-direction: column; justify-content: center; flex: 1; min-height: 88px; padding: 12px 0; }
+.daily-quote p { font-family: 'Songti SC','Noto Serif CJK SC',SimSun,serif; font-size: 16px; line-height: 1.8; margin: 0; overflow-wrap: anywhere; }
+.daily-quote>span { color: var(--portal-muted); font-size: 9px; margin-top: 6px; }
+.rate-base { font-size: 9px; color: var(--portal-muted); }
+.rate-values { display: grid; grid-template-columns: 1.2fr 1fr 1fr; align-items: center; gap: 10px; flex: 1; min-height: 88px; padding: 16px 0; }
+.rate-values span { display: block; font-size: 8px; color: var(--portal-muted); }
+.rate-values strong { display: block; font-size: clamp(15px,1.5vw,23px); font-weight: 500; letter-spacing: -.04em; margin-top: 4px; font-variant-numeric: tabular-nums; }
+.widgets-noscript { font-size: 12px; background: var(--glass-solid); border-radius: 16px; padding: 14px 20px; }
+@media(max-width:1180px) { .daily-widgets { gap: 11px; grid-template-columns: 1fr 1fr; } .rates-card { grid-column: 1/-1; display: grid; grid-template-columns: 1fr 1.5fr; column-gap: 24px; } .rates-card .daily-card-footer { grid-column: 1/-1; } .rate-values { min-height: 54px; padding: 0 0 12px; } .daily-card { padding: 16px 18px 13px; } }
+@media(max-width:700px) { .hero-search-area { margin-top: 33px; } .hero-search-area h1 { font-size: 23px; } .portal-hero { padding-bottom: 22px; } .wallpaper-picker summary { padding: 6px 9px; font-size: 10px; } .wallpaper-picker summary>span { display: none; } .wallpaper-picker { margin-left: 3px; } .daily-widgets { grid-template-columns: 1fr; gap: 10px; margin-top: 0; } .daily-card { padding: 15px 18px 12px; border-radius: 20px; } .weather-main { min-height: 76px; } .daily-quote { min-height: 76px; } .rates-card { display: flex; grid-column: auto; } .rate-values { min-height: 76px; padding: 12px 0; } .rate-values strong { font-size: 23px; } .portal-toolbar { min-height: 60px; } }
+@supports not (backdrop-filter:blur(1px)) { body.portal { --glass-surface: #f3f7f8; } .dark body.portal { --glass-surface: #1b2936; } }

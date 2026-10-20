@@ -1,0 +1,16 @@
+---
+const wallpapers = [{id: 'mountain', name: '山湖晨光'}, {id: 'forest', name: '雾林秘境'}, {id: 'lake', name: '翡翠湖畔'}]
+---
+<details class='wallpaper-picker'>
+  <summary>◈ <span>切换壁纸</span></summary>
+  <div class='wallpaper-panel'><p>换一处风景</p><div class='wallpaper-options'>{wallpapers.map((wallpaper, index) => <button type='button' data-wallpaper={wallpaper.id} aria-pressed={index === 0 ? 'true' : 'false'}><img src={'/wallpapers/' + wallpaper.id + '-thumb.webp'} alt='' width='96' height='60' loading='lazy' /><span>{wallpaper.name}</span></button>)}</div><a href='https://unsplash.com/license' target='_blank' rel='noopener noreferrer'>高清风景来自 Unsplash ↗</a></div>
+</details>
+<script>
+  const picker = document.querySelector<HTMLDetailsElement>('.wallpaper-picker')!
+  const buttons = [...picker.querySelectorAll<HTMLButtonElement>('[data-wallpaper]')]
+  function select(id: string) { document.documentElement.dataset.wallpaper = id; buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.wallpaper === id))) }
+  select(document.documentElement.dataset.wallpaper || 'mountain')
+  buttons.forEach(button => button.addEventListener('click', () => { select(button.dataset.wallpaper!); try { localStorage.setItem('rabbit:wallpaper', button.dataset.wallpaper!) } catch {} picker.open = false }))
+  document.addEventListener('click', event => { if (!picker.contains(event.target as Node)) picker.open = false })
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') picker.open = false })
+</script>

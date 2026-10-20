@@ -42,3 +42,11 @@ GitHub Pages 自动发布文件已准备在 `.github/workflows/pages.yml`。使�
 ## 搜索收录
 
 网站提供 robots.txt、站点地图与文章元数据。公网可访问不等于已被搜索引擎收录；可以在百度搜索资源平台或 Google Search Console 验证网站并提交站点地图，收录时间与排名由搜索引擎决定。
+
+## 首页壁纸与信息卡片
+
+右上角“切换壁纸”可选择三张高清风景，浏览器会记住选择。图片位于 `public/wallpapers/`，来源见该目录的 SOURCES.md。
+
+首页接入无需密钥的免费服务：Open-Meteo 天气（个人非商业使用）、一言诗词、Frankfurter / ECB 每日参考汇率。城市默认为北京，可在天气卡片切换。数据使用浏览器缓存减少请求，网络失败时显示提示，汇率标注实际数据日期。
+
+接口说明：https://open-meteo.com/en/docs 、https://developer.hitokoto.cn/sentence/ 、https://frankfurter.dev/ 。

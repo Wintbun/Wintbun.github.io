@@ -1,0 +1,92 @@
+---
+const cities = ['北京', '天津', '上海', '杭州', '广州', '深圳', '成都']
+---
+<section class='daily-widgets' aria-label='今日小看板'>
+  <article class='daily-card weather-card'>
+    <div class='daily-card-heading'><h2><span aria-hidden='true'>☀</span> 城市天气</h2><label><span class='sr-only'>天气城市</span><select id='weather-city'>{cities.map((city, i) => <option value={i}>{city}</option>)}</select></label></div>
+    <div class='weather-main' aria-live='polite'><strong id='weather-temperature'>—<small>°C</small></strong><div><p id='weather-condition'>正在读取天气…</p><p id='weather-range'>今天也要照顾好自己</p></div></div>
+    <div class='daily-card-footer'><span id='weather-updated'>城市可切换</span><a href='https://open-meteo.com/' target='_blank' rel='noopener noreferrer'>Open-Meteo ↗</a></div>
+  </article>
+  <article class='daily-card quote-card'>
+    <div class='daily-card-heading'><h2><span aria-hidden='true'>“</span> 每日一句</h2><button id='refresh-quote' type='button' aria-label='换一句诗词'>换一句 ↻</button></div>
+    <div class='daily-quote' aria-live='polite'><p id='daily-quote'>等一阵风，也等一句好诗。</p><span id='quote-author'>正在寻找今日诗句…</span></div>
+    <div class='daily-card-footer'><span id='quote-status'>片刻留白</span><a id='quote-source' href='https://hitokoto.cn/' target='_blank' rel='noopener noreferrer'>一言 ↗</a></div>
+  </article>
+  <article class='daily-card rates-card'>
+    <div class='daily-card-heading'><h2><span aria-hidden='true'>↗</span> 参考汇率</h2><span class='rate-base'>1 USD 美元</span></div>
+    <div class='rate-values' aria-live='polite'><div><span>CNY 人民币</span><strong id='rate-cny'>—</strong></div><div><span>EUR 欧元</span><strong id='rate-eur'>—</strong></div><div><span>JPY 日元</span><strong id='rate-jpy'>—</strong></div></div>
+    <div class='daily-card-footer'><span id='rate-updated'>正在读取参考价…</span><a href='https://frankfurter.dev/' target='_blank' rel='noopener noreferrer'>Frankfurter · ECB ↗</a></div>
+  </article>
+</section>
+<noscript><p class='widgets-noscript'>开启 JavaScript 后可显示天气、诗词和参考汇率，网站导航仍可直接使用。</p></noscript>
+<script>
+  type Weather = { current: { time: string; temperature_2m: number; apparent_temperature: number; weather_code: number }; daily: { temperature_2m_min: number[]; temperature_2m_max: number[] } }
+  type Quote = { hitokoto: string; from: string; from_who: string | null; uuid: string }
+  type Rate = { date: string; base: string; quote: string; rate: number }
+  const cities = [[39.9042,116.4074],[39.0842,117.2009],[31.2304,121.4737],[30.2741,120.1551],[23.1291,113.2644],[22.5431,114.0579],[30.5728,104.0668]]
+  const text = (id: string, value: string) => { document.getElementById(id)!.textContent = value }
+  function read<T>(key: string, ttl: number): T | null {
+    try { const cached = JSON.parse(localStorage.getItem('rabbit:' + key) || 'null'); if (cached && Number.isFinite(cached.time) && Date.now() >= cached.time && Date.now() - cached.time < ttl) return cached.data } catch {}
+    return null
+  }
+  function save(key: string, data: unknown) { try { localStorage.setItem('rabbit:' + key, JSON.stringify({time: Date.now(), data})) } catch {} }
+  async function request<T>(url: string): Promise<T> {
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), 9000)
+    try { const response = await fetch(url, {signal: controller.signal, referrerPolicy: 'no-referrer'}); if (!response.ok) throw new Error('API unavailable'); return await response.json() as T } finally { clearTimeout(timeout) }
+  }
+  const weatherName = (code: number) => code === 0 ? '晴朗' : code <= 3 ? '多云' : [45,48].includes(code) ? '有雾' : code < 60 ? '毛毛雨' : code < 70 ? '有雨' : code < 80 ? '有雪' : code < 85 ? '阵雨' : code < 90 ? '阵雪' : '雷雨'
+  const citySelect = document.querySelector<HTMLSelectElement>('#weather-city')!
+  try { const city = localStorage.getItem('rabbit:city'); if (city !== null && /^\d$/.test(city) && cities[Number(city)]) citySelect.value = city } catch {}
+  let weatherRequest = 0
+  async function weather() {
+    const sequence = ++weatherRequest
+    const city = Number(citySelect.value)
+    const [latitude, longitude] = cities[city]
+    text('weather-temperature', '— °C'); text('weather-condition', '正在读取天气…'); text('weather-range', '今天也要照顾好自己'); text('weather-updated', '城市可切换')
+    try {
+      const key = 'weather:' + city
+      const cached = read<Weather>(key, 30 * 60 * 1000)
+      const data = cached || await request<Weather>(`https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,apparent_temperature,weather_code&daily=temperature_2m_max,temperature_2m_min&timezone=Asia%2FShanghai&forecast_days=1`)
+      if (![data.current?.temperature_2m, data.current?.apparent_temperature, data.current?.weather_code, data.daily?.temperature_2m_min?.[0], data.daily?.temperature_2m_max?.[0]].every(Number.isFinite) || !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(data.current.time)) throw new Error('Invalid weather')
+      if (!cached) save(key, data)
+      if (sequence !== weatherRequest) return
+      text('weather-temperature', Math.round(data.current.temperature_2m) + '°')
+      text('weather-condition', weatherName(data.current.weather_code) + ' · 体感 ' + Math.round(data.current.apparent_temperature) + '°')
+      text('weather-range', Math.round(data.daily.temperature_2m_min[0]) + '° / ' + Math.round(data.daily.temperature_2m_max[0]) + '° · 今日温度')
+      text('weather-updated', data.current.time.slice(5).replace('T', ' ') + ' 更新')
+    } catch { if (sequence === weatherRequest) { text('weather-condition', '天气暂时无法获取'); text('weather-range', '稍后刷新页面重试'); text('weather-updated', '当前城市：' + citySelect.selectedOptions[0].text) } }
+  }
+  citySelect.addEventListener('change', () => { try { localStorage.setItem('rabbit:city', citySelect.value) } catch {} void weather() })
+  const quoteButton = document.querySelector<HTMLButtonElement>('#refresh-quote')!
+  let lastQuoteRequest = 0
+  async function quote(force = false) {
+    if (force && Date.now() - lastQuoteRequest < 1500) return
+    lastQuoteRequest = Date.now()
+    quoteButton.disabled = true
+    try {
+      const day = new Intl.DateTimeFormat('en-CA', {timeZone: 'Asia/Shanghai'}).format(new Date())
+      const data = (!force && read<{day: string; quote: Quote}>('quote', 86400000)) || null
+      const result = data?.day === day ? data.quote : await request<Quote>('https://v1.hitokoto.cn/?c=i&max_length=38')
+      if (typeof result.hitokoto !== 'string' || !result.hitokoto.trim()) throw new Error('Invalid quote')
+      save('quote', {day, quote: result})
+      text('daily-quote', result.hitokoto.slice(0, 120)); text('quote-author', [result.from_who, result.from ? '《' + result.from + '》' : ''].filter(Boolean).join(' · ').slice(0, 100)); text('quote-status', '把诗意留在日常')
+      const source = document.querySelector<HTMLAnchorElement>('#quote-source')!
+      source.href = /^[a-f0-9-]{36}$/i.test(result.uuid) ? 'https://hitokoto.cn/?uuid=' + encodeURIComponent(result.uuid) : 'https://hitokoto.cn/'
+    } catch { text('quote-status', '诗句暂未更新，稍后再试'); if (!document.getElementById('quote-author')!.textContent?.includes('《')) { text('daily-quote', '不赶路，也会到达。'); text('quote-author', '小站寄语') } } finally { quoteButton.disabled = false }
+  }
+  quoteButton.addEventListener('click', () => { void quote(true) })
+  async function rates() {
+    try {
+      const cached = read<Rate[]>('rates', 6 * 3600000)
+      const data = cached || await request<Rate[]>('https://api.frankfurter.dev/v2/rates?base=USD&quotes=CNY,EUR,JPY&providers=ECB')
+      if (!Array.isArray(data)) throw new Error('Invalid rates')
+      const selected = ['CNY','EUR','JPY'].map(currency => data.find(row => row.quote === currency && row.base === 'USD'))
+      if (!selected.every(row => row && Number.isFinite(row.rate) && row.rate > 0 && /^\d{4}-\d{2}-\d{2}$/.test(row.date))) throw new Error('Invalid rates')
+      if (!cached) save('rates', data)
+      for (const row of selected as Rate[]) text('rate-' + row.quote.toLowerCase(), row.rate.toFixed(row.quote === 'JPY' ? 2 : 4))
+      text('rate-updated', (selected[0] as Rate).date + ' · 仅供参考')
+    } catch { text('rate-updated', '汇率暂时无法获取，稍后重试') }
+  }
+  void weather(); void quote(); void rates()
+</script>
