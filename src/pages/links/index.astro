@@ -1,22 +1,94 @@
 ---
-import PageLayout from '@/layouts/BaseLayout.astro'
+import { ThemeProvider } from 'astro-pure/components/basic'
+import BaseHead from '@/components/BaseHead.astro'
+import Icon from '@/components/NavigationIcon.astro'
 import links from '@/public/navigation.json'
-const categories = [...new Set(links.map(link => link.category))]
+import '@/assets/styles/navigation.css'
+const groupIcons: Record<string, string> = { 我的收藏: 'star', 常用站点: 'grid', 视频直播: 'video', 资源搜索: 'search', 软件游戏: 'monitor', 阅读漫画: 'book', 音乐动听: 'music', 实用工具: 'tool', 学习教育: 'school', 办公素材: 'briefcase' }
+const groups = [...new Set(links.map(link => link.category))].map((name, index) => {
+  const entries = links.filter(link => link.category === name)
+  return { name, id: 'nav-group-' + index, icon: groupIcons[name] || 'grid', entries, tabs: [...new Set(entries.map(link => link.subcategory))] }
+})
+const uniqueCount = new Set(links.map(link => link.url.replace(/\/$/, ''))).size
+const shortcuts = groups.filter(group => ['常用站点', '视频直播', '资源搜索', '软件游戏', '实用工具', '学习教育'].includes(group.name))
+const tone = (name: string) => ['blue', 'green', 'orange', 'purple', 'red'][[...name].reduce((sum, char) => sum + char.charCodeAt(0), 0) % 5]
 ---
-<PageLayout meta={{ title: '网站导航', description: '分类整理学习资料、效率工具与设计灵感的网站导航。' }}>
-<main class="navigation-page"><p class="eyebrow">THE BOOKMARKS</p><h1>网站导航<span> ↗</span></h1><p class="page-intro">好用的网站，值得留一个位置。</p>
-<p class="sample-notice">以下为初始示例收藏，可替换成你的常用网站。</p>
-<label class="nav-search"><span>搜索网站</span><input id="link-search" type="search" placeholder="输入名称或用途，如：笔记、设计…" /></label>
-<div class="filter-tabs" role="group" aria-label="网站分类"><button class="active" data-category="all" aria-pressed="true">全部网站</button>{categories.map(category=><button data-category={category} aria-pressed="false">{category}</button>)}</div>
-<div class="link-grid">{links.map(link=><a class="bookmark" href={link.url} target="_blank" rel="noopener noreferrer" data-category={link.category} data-search={link.name+' '+link.description+' '+link.category}><span class="bookmark-mark">{link.mark}</span><span class="bookmark-body"><small>{link.category}</small><h2>{link.name}</h2><p>{link.description}</p><span class="bookmark-domain">{new URL(link.url).hostname}</span></span><span class="bookmark-arrow" aria-hidden="true">↗</span></a>)}</div>
-<p id="no-links" hidden role="status">还没有找到匹配的网站，试试其他关键词。</p>
-</main></PageLayout>
-<script>
-const input=document.querySelector<HTMLInputElement>('#link-search')!
-const buttons=document.querySelectorAll<HTMLButtonElement>('.filter-tabs button')
-const cards=document.querySelectorAll<HTMLAnchorElement>('.bookmark')
-let selected='all'
-function filter(){let count=0;for(const card of cards){const match=(selected==='all'||card.dataset.category===selected)&&(card.dataset.search||'').toLowerCase().includes(input.value.trim().toLowerCase());card.hidden=!match;if(match)count++}document.querySelector<HTMLElement>('#no-links')!.hidden=count>0}
-input.addEventListener('input',filter)
-buttons.forEach(button=>button.addEventListener('click',()=>{selected=button.dataset.category!;buttons.forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button))});filter()}))
-</script>
+<html lang='zh-CN'>
+<head><BaseHead title='网站导航' description='不会游泳的兔子的网站导航：常用站点、学习资料、实用工具、音乐与设计素材。' /><ThemeProvider /></head>
+<body class='portal'>
+  <a class='skip-link' href='#navigation-content'>跳到网站导航</a>
+  <button class='sidebar-backdrop' aria-label='关闭分类菜单' tabindex='-1'></button>
+  <aside id='portal-sidebar' class='portal-sidebar' aria-label='网站分类'>
+    <a class='portal-brand' href='/'><img src='/rabbit.svg' alt='' width='43' height='43' /><span><strong>不会游泳的兔子</strong><small>个人手记 · 网站导航</small></span></a>
+    <nav class='sidebar-categories'>{groups.map((group, index) => <a class:list={['sidebar-link', { active: index === 0 }]} href={'#' + group.id} title={group.name}><Icon name={group.icon} /><span>{group.name}</span><Icon name='chevron' size={13} class='category-chevron' /></a>)}</nav>
+    <nav class='sidebar-bottom' aria-label='博客导航'><a href='/'><Icon name='home' /><span>博客首页</span></a><a href='/blog'><Icon name='book' /><span>我的文章</span></a><a href='/about'><Icon name='link' /><span>关于小站</span></a></nav>
+  </aside>
+  <div class='portal-main'>
+    <header class='portal-hero'>
+      <div class='starfield' aria-hidden='true'></div>
+      <div class='portal-topbar'><div class='topbar-left'><button id='sidebar-toggle' class='icon-button' aria-label='展开或收起分类菜单' aria-controls='portal-sidebar' aria-expanded='false'><Icon name='menu' size={23} /></button><a href='/'><Icon name='home' size={18} /><span>博客首页</span></a><a href='/blog'><Icon name='book' size={18} /><span>我的文章</span></a></div><a class='topbar-about' href='/about'>一只兔子的网上漫游</a></div>
+      <div class='hero-search-area'><p class='hero-kicker'>A LITTLE CORNER, A WIDER WORLD</p><h1>把好用的网站，放在一起<span>。</span></h1><div class='search-caption'><span>站内搜索</span><span>从收藏里，找到下一站</span></div><form class='portal-search' role='search'><label class='sr-only' for='portal-query'>搜索网站名称、网址或分类</label><input id='portal-query' type='search' placeholder='搜索网站名称、网址或分类…' autocomplete='off' /><button type='submit' aria-label='搜索网站'><Icon name='search' size={23} /></button></form><nav class='hero-shortcuts' aria-label='快速分类'>{shortcuts.map(group => <a href={'#' + group.id}>{group.name}</a>)}</nav></div>
+      <svg class='snow-mountains' viewBox='0 0 1600 120' preserveAspectRatio='none' aria-hidden='true'>
+        <path fill='#46515d' d='M0 60 25 37 53 63 87 54 122 69 170 36 204 49 260 23 300 58 338 45 370 70 414 30 450 59 483 39 525 72 562 50 609 66 647 32 689 52 727 40 762 68 805 29 848 61 891 43 930 67 969 34 1015 59 1050 42 1095 64 1142 35 1180 55 1227 23 1267 49 1306 37 1346 65 1390 41 1440 65 1480 39 1528 65 1570 47 1600 62V120H0Z'/>
+        <path fill='#91a4ae' d='m0 75 36-20 35 19 45-23 38 23 45-35 43 39 46-35 36 39 41-25 41 23 37-22 43 24 45-37 49 44 45-28 43 20 38-43 40 44 44-19 38 25 39-33 41 23 52-29 45 29 42-21 50 22 46-37 44 35 40-24 41 32 46-26 42 22 46-25 45 23 55-20 49 24 47-25 45 28 42-21 49 22V120H0Z'/>
+        <path fill='#c9dbe1' d='m0 87 28-9 24 12 36-21 33 20 48-20 31 27 51-33 37 28 49-23 42 21 41-10 39 15 37-19 44 14 42-16 46 22 40-30 38 27 40-17 45 17 49-12 41 20 46-35 41 30 39-20 45 24 43-18 49 15 41-29 43 27 46-14 43 25 44-15 45 15 46-17 47 15 43-16 50 17 42-12 45 16V120H0Z'/>
+        <path fill='#e9f3f5' d='m0 98 40-9 25 13 31-13 44 10 26-16 30 22 48-16 36 14 43-8 42 12 36-16 42 14 45-11 39 12 46-9 47 12 46-15 44 11 44-9 39 10 46-6 44 8 40-15 42 10 47-8 47 11 46-14 39 12 42-9 45 9 42-11 46 14 42-8 42 11 47-10 45 9 43-9 43 10 47-10 49 10V120H0Z'/>
+      </svg>
+    </header>
+    <main id='navigation-content' class='portal-content'>
+      <div class='portal-toolbar'><div><span class='toolbar-pill'>我的导航</span><span class='directory-total'>{uniqueCount} 个站点 · {groups.length} 个分类</span></div><button id='clear-query' hidden>清空搜索 <Icon name='close' size={13} /></button></div>
+      <p id='search-status' class='search-status' role='status' aria-live='polite' hidden></p>
+      {groups.map(group => <section id={group.id} class='portal-section' aria-labelledby={group.id + '-title'}>
+        <div class='section-header'><h2 id={group.id + '-title'}><Icon name={group.icon} size={21} />{group.name}</h2><div class='section-tabs' role='group' aria-label={group.name + '子分类'}>{group.tabs.map((tab, index) => <button class:list={['section-tab', { active: index === 0 }]} aria-pressed={index === 0 ? 'true' : 'false'} data-subcategory={tab}>{tab}</button>)}</div><span class='section-count'>{group.entries.length}</span></div>
+        <div class='portal-grid'>{group.entries.map(link => <a class='portal-entry' href={link.url} target='_blank' rel='noopener noreferrer' title={link.name + ' · ' + link.url} data-category={group.name} data-subcategory={link.subcategory} data-search={[link.name, link.url, link.category, link.subcategory, link.description].join(' ').toLowerCase()} hidden={link.subcategory !== group.tabs[0]}><span class:list={['entry-icon', tone(link.name)]}><span aria-hidden='true'>{link.mark}</span><img src={'https://icons.duckduckgo.com/ip3/' + new URL(link.url).hostname + '.ico'} width='25' height='25' alt='' loading='lazy' decoding='async' referrerpolicy='no-referrer' /></span><span class='entry-text'><strong>{link.name}</strong><small class='entry-subcategory'>{link.subcategory}</small></span><span class='entry-arrow'><Icon name='chevron' size={11} /></span></a>)}</div>
+      </section>)}
+      <div id='empty-results' class='empty-results' hidden><Icon name='search' size={32} /><h2>没有找到这个网站</h2><p>试试更短的名称，或换一个分类关键词。</p></div>
+      <footer class='portal-footer'><p>© 2026 不会游泳的兔子 · 让每次打开，都有一个好去处。</p><p>导航整理自 <a href='https://adzhp.cc/' target='_blank' rel='noopener noreferrer'>爱达杂货铺</a>，保留原有收藏，已过滤识别出的推广内容。<a href='/blog'>去读文章 ↗</a></p></footer>
+    </main>
+  </div>
+  <div class='portal-floating'><button id='back-to-top' aria-label='返回顶部'><Icon name='up' size={19} /></button><button id='portal-theme' aria-label='切换深浅色外观'><Icon name='moon' size={17} /></button></div>
+  <script>
+    const body = document.body
+    const query = document.querySelector<HTMLInputElement>('#portal-query')!
+    const sections = [...document.querySelectorAll<HTMLElement>('.portal-section')]
+    const clearButton = document.querySelector<HTMLButtonElement>('#clear-query')!
+    const status = document.querySelector<HTMLElement>('#search-status')!
+    const empty = document.querySelector<HTMLElement>('#empty-results')!
+    const menuButton = document.querySelector<HTMLButtonElement>('#sidebar-toggle')!
+    function filter() {
+      const term = query.value.trim().toLowerCase()
+      let total = 0
+      for (const section of sections) {
+        const selected = section.querySelector<HTMLElement>('.section-tab.active')?.dataset.subcategory
+        let matched = 0
+        for (const card of section.querySelectorAll<HTMLAnchorElement>('.portal-entry')) {
+          const show = term ? (card.dataset.search || '').includes(term) : card.dataset.subcategory === selected
+          card.hidden = !show
+          if (show) matched++
+        }
+        section.hidden = matched === 0
+        section.classList.toggle('is-searching', !!term)
+        total += matched
+      }
+      clearButton.hidden = !term; status.hidden = !term
+      status.textContent = term ? '找到 ' + total + ' 条相关导航' : ''
+      empty.hidden = total !== 0
+    }
+    document.querySelector('.portal-search')!.addEventListener('submit', event => { event.preventDefault(); filter(); if (query.value.trim()) document.querySelector('#navigation-content')!.scrollIntoView({ behavior: 'smooth' }) })
+    query.addEventListener('input', filter)
+    clearButton.addEventListener('click', () => { query.value = ''; filter(); query.focus() })
+    for (const section of sections) for (const tab of section.querySelectorAll<HTMLButtonElement>('.section-tab')) tab.addEventListener('click', () => { for (const button of section.querySelectorAll<HTMLButtonElement>('.section-tab')) { button.classList.toggle('active', button === tab); button.setAttribute('aria-pressed', String(button === tab)) } query.value = ''; filter() })
+    function closeMenu() { body.classList.remove('sidebar-open'); menuButton.setAttribute('aria-expanded', 'false') }
+    menuButton.addEventListener('click', () => { if (window.matchMedia('(max-width: 900px)').matches) { const open = body.classList.toggle('sidebar-open'); menuButton.setAttribute('aria-expanded', String(open)) } else { body.classList.toggle('sidebar-collapsed'); menuButton.setAttribute('aria-expanded', String(!body.classList.contains('sidebar-collapsed'))) } })
+    document.querySelector('.sidebar-backdrop')!.addEventListener('click', closeMenu)
+    document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu() })
+    document.querySelectorAll<HTMLAnchorElement>('.sidebar-link, .hero-shortcuts a').forEach(link => link.addEventListener('click', () => { query.value = ''; filter(); closeMenu() }))
+    const observer = new IntersectionObserver(entries => { for (const entry of entries) if (entry.isIntersecting) document.querySelectorAll<HTMLAnchorElement>('.sidebar-link').forEach(link => link.classList.toggle('active', link.hash === '#' + entry.target.id)) }, { rootMargin: '-30px 0px -65% 0px' })
+    sections.forEach(section => observer.observe(section))
+    for (const image of document.querySelectorAll<HTMLImageElement>('.entry-icon img')) { image.addEventListener('error', () => { image.hidden = true }); if (image.complete && image.naturalWidth === 0) image.hidden = true }
+    document.querySelector('#portal-theme')!.addEventListener('click', () => { const dark = document.documentElement.classList.toggle('dark'); try { localStorage.setItem('theme', dark ? 'dark' : 'light') } catch {} })
+    document.querySelector('#back-to-top')!.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }))
+    filter()
+  </script>
+</body>
+</html>

@@ -25,7 +25,7 @@ comment: false
 
 ## 网站导航与介绍
 
-编辑 `public/navigation.json`：category 分类、name 名称、url 网址、description 说明、mark 缩写。当前 9 个网站是示例收藏。
+编辑 `public/navigation.json`：category 分类、name 名称、url 网址、description 说明、mark 缩写。导航使用 category 大类和 subcategory 子分类。已从爱达杂货铺首页及其 36 个可加载子分类导入 510 个不同站点，过滤可识别的推广内容，并保留原有收藏。
 
 站名、简介与菜单在 `src/site.config.ts`，关于页在 `src/pages/about/index.astro`。
 

@@ -1,65 +1,4258 @@
 [
   {
-    "category": "学习与阅读",
+    "category": "我的收藏",
     "name": "MDN Web Docs",
     "url": "https://developer.mozilla.org/zh-CN/",
     "description": "Web 开发文档与学习资料",
-    "mark": "M"
+    "mark": "M",
+    "subcategory": "学习与阅读"
   },
   {
-    "category": "学习与阅读",
+    "category": "我的收藏",
     "name": "维基百科",
     "url": "https://zh.wikipedia.org/",
     "description": "自由的百科全书",
-    "mark": "W"
+    "mark": "W",
+    "subcategory": "学习与阅读"
   },
   {
-    "category": "学习与阅读",
+    "category": "我的收藏",
     "name": "GitHub",
     "url": "https://github.com/",
     "description": "探索开源项目与代码",
-    "mark": "G"
+    "mark": "G",
+    "subcategory": "学习与阅读"
   },
   {
-    "category": "效率工具",
+    "category": "我的收藏",
     "name": "Excalidraw",
     "url": "https://excalidraw.com/",
     "description": "画流程、整理想法的在线白板",
-    "mark": "E"
+    "mark": "E",
+    "subcategory": "效率工具"
   },
   {
-    "category": "效率工具",
+    "category": "我的收藏",
     "name": "Notion",
     "url": "https://www.notion.so/",
     "description": "笔记、文档与知识整理",
-    "mark": "N"
+    "mark": "N",
+    "subcategory": "效率工具"
   },
   {
-    "category": "效率工具",
+    "category": "我的收藏",
     "name": "Can I use",
     "url": "https://caniuse.com/",
     "description": "查询浏览器对 Web 特性的支持",
-    "mark": "C"
+    "mark": "C",
+    "subcategory": "效率工具"
   },
   {
-    "category": "设计与灵感",
+    "category": "我的收藏",
     "name": "Figma",
     "url": "https://www.figma.com/",
     "description": "界面设计与协作",
-    "mark": "F"
+    "mark": "F",
+    "subcategory": "设计与灵感"
   },
   {
-    "category": "设计与灵感",
+    "category": "我的收藏",
     "name": "Unsplash",
     "url": "https://unsplash.com/",
     "description": "寻找摄影图片与视觉灵感",
-    "mark": "U"
+    "mark": "U",
+    "subcategory": "设计与灵感"
   },
   {
-    "category": "设计与灵感",
+    "category": "我的收藏",
     "name": "Awwwards",
     "url": "https://www.awwwards.com/",
     "description": "发现网站设计作品",
+    "mark": "A",
+    "subcategory": "设计与灵感"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "链接星球(爱达发布页)",
+    "url": "https://linkqiu.com/",
+    "description": "阅读 · 常用站点",
+    "mark": "链"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "新浪微博",
+    "url": "https://weibo.com/",
+    "description": "阅读 · 常用站点",
+    "mark": "新"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "知乎",
+    "url": "https://www.zhihu.com/",
+    "description": "阅读 · 常用站点",
+    "mark": "知"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "百度贴吧",
+    "url": "https://tieba.baidu.com/",
+    "description": "阅读 · 常用站点",
+    "mark": "百"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "豆瓣",
+    "url": "https://www.douban.com/",
+    "description": "阅读 · 常用站点",
+    "mark": "豆"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "小红书",
+    "url": "https://www.xiaohongshu.com/",
+    "description": "阅读 · 常用站点",
+    "mark": "小"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "即刻",
+    "url": "https://web.okjike.com/",
+    "description": "阅读 · 常用站点",
+    "mark": "即"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "少数派",
+    "url": "https://sspai.com/",
+    "description": "阅读 · 常用站点",
+    "mark": "少"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "虎扑社区",
+    "url": "https://bbs.hupu.com/",
+    "description": "阅读 · 常用站点",
+    "mark": "虎"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "最右网页版",
+    "url": "https://www.izuiyou.com/",
+    "description": "阅读 · 常用站点",
+    "mark": "最"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "Topbook",
+    "url": "https://topbook.cc/overview",
+    "description": "阅读 · 常用站点",
+    "mark": "T"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "简书",
+    "url": "https://www.jianshu.com/",
+    "description": "阅读 · 常用站点",
+    "mark": "简"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "什么值得买社区",
+    "url": "https://post.smzdm.com/",
+    "description": "阅读 · 常用站点",
+    "mark": "什"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "微信读书",
+    "url": "https://weread.qq.com/",
+    "description": "阅读 · 常用站点",
+    "mark": "微"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "煎蛋",
+    "url": "http://jandan.net/",
+    "description": "阅读 · 常用站点",
+    "mark": "煎"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "阅读",
+    "name": "36氪",
+    "url": "https://36kr.com/",
+    "description": "阅读 · 常用站点",
+    "mark": "3"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "购物",
+    "name": "1688平价商城",
+    "url": "https://pjjx.1688.com/",
+    "description": "购物 · 常用站点",
+    "mark": "1"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "购物",
+    "name": "京东",
+    "url": "https://www.jd.com/",
+    "description": "购物 · 常用站点",
+    "mark": "京"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "购物",
+    "name": "天猫",
+    "url": "https://www.tmall.com/",
+    "description": "购物 · 常用站点",
+    "mark": "天"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "购物",
+    "name": "淘宝网",
+    "url": "https://www.taobao.com/",
+    "description": "购物 · 常用站点",
+    "mark": "淘"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "购物",
+    "name": "什么值得买",
+    "url": "https://www.smzdm.com/",
+    "description": "购物 · 常用站点",
+    "mark": "什"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "购物",
+    "name": "闲鱼",
+    "url": "https://2.taobao.com/",
+    "description": "购物 · 常用站点",
+    "mark": "闲"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "购物",
+    "name": "苏宁易购",
+    "url": "http://www.suning.com/",
+    "description": "购物 · 常用站点",
+    "mark": "苏"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "购物",
+    "name": "聚划算",
+    "url": "https://ju.taobao.com/",
+    "description": "购物 · 常用站点",
+    "mark": "聚"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "直播",
+    "name": "抖音直播",
+    "url": "https://live.douyin.com/",
+    "description": "直播 · 常用站点",
+    "mark": "抖"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "直播",
+    "name": "斗鱼直播",
+    "url": "https://www.douyu.com/",
+    "description": "直播 · 常用站点",
+    "mark": "斗"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "直播",
+    "name": "央视直播",
+    "url": "http://tv.cctv.com/live",
+    "description": "直播 · 常用站点",
+    "mark": "央"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "直播",
+    "name": "123iptv",
+    "url": "https://www.123iptv.tv/",
+    "description": "直播 · 常用站点",
+    "mark": "1"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "直播",
+    "name": "网易CC",
+    "url": "https://cc.163.com/",
+    "description": "直播 · 常用站点",
+    "mark": "网"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "直播",
+    "name": "哔哩哔哩直播",
+    "url": "https://live.bilibili.com/",
+    "description": "直播 · 常用站点",
+    "mark": "哔"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "直播",
+    "name": "电视盒子影视直播",
+    "url": "https://zyscj.com/zy/video/tv.html",
+    "description": "直播 · 常用站点",
+    "mark": "电"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "直播",
+    "name": "虎牙直播",
+    "url": "https://www.huya.com/",
+    "description": "直播 · 常用站点",
+    "mark": "虎"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "直播",
+    "name": "企鹅NBA",
+    "url": "https://live.qq.com/",
+    "description": "直播 · 常用站点",
+    "mark": "企"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "翻译",
+    "name": "谷歌翻译",
+    "url": "https://translate.google.com.hk/",
+    "description": "翻译 · 常用站点",
+    "mark": "谷"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "翻译",
+    "name": "百度翻译",
+    "url": "https://fanyi.baidu.com/",
+    "description": "翻译 · 常用站点",
+    "mark": "百"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "翻译",
+    "name": "DeepL翻译",
+    "url": "https://www.deepl.com/translator",
+    "description": "翻译 · 常用站点",
+    "mark": "D"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "翻译",
+    "name": "有道翻译",
+    "url": "https://dict.youdao.com/",
+    "description": "翻译 · 常用站点",
+    "mark": "有"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "翻译",
+    "name": "必应翻译",
+    "url": "https://www.bing.com/translator",
+    "description": "翻译 · 常用站点",
+    "mark": "必"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "翻译",
+    "name": "腾讯翻译君",
+    "url": "https://fanyi.qq.com/",
+    "description": "翻译 · 常用站点",
+    "mark": "腾"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "翻译",
+    "name": "搜狗翻译",
+    "url": "https://fanyi.sogou.com/",
+    "description": "翻译 · 常用站点",
+    "mark": "搜"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "翻译",
+    "name": "阿里翻译",
+    "url": "https://translate.alibaba.com/",
+    "description": "翻译 · 常用站点",
+    "mark": "阿"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "翻译",
+    "name": "彩云小译",
+    "url": "https://fanyi.caiyunapp.com/",
+    "description": "翻译 · 常用站点",
+    "mark": "彩"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "翻译",
+    "name": "爱词霸",
+    "url": "https://www.iciba.com/",
+    "description": "翻译 · 常用站点",
+    "mark": "爱"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "翻译",
+    "name": "欧路词典",
+    "url": "https://dict.eudic.net/",
+    "description": "翻译 · 常用站点",
+    "mark": "欧"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "网盘",
+    "name": "百度网盘",
+    "url": "https://pan.baidu.com/",
+    "description": "网盘 · 常用站点",
+    "mark": "百"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "网盘",
+    "name": "阿里云盘",
+    "url": "https://www.aliyundrive.com/drive",
+    "description": "网盘 · 常用站点",
+    "mark": "阿"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "网盘",
+    "name": "蓝奏云",
+    "url": "https://www.lanzou.com/",
+    "description": "网盘 · 常用站点",
+    "mark": "蓝"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "网盘",
+    "name": "115网盘",
+    "url": "https://115.com/",
+    "description": "网盘 · 常用站点",
+    "mark": "1"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "网盘",
+    "name": "城通网盘",
+    "url": "https://www.ctfile.com/",
+    "description": "网盘 · 常用站点",
+    "mark": "城"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "网盘",
+    "name": "移动云盘",
+    "url": "https://yun.139.com/",
+    "description": "网盘 · 常用站点",
+    "mark": "移"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "网盘",
+    "name": "天翼云盘",
+    "url": "https://cloud.189.cn/",
+    "description": "网盘 · 常用站点",
+    "mark": "天"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "网盘",
+    "name": "坚果云",
+    "url": "https://www.jianguoyun.com/",
+    "description": "网盘 · 常用站点",
+    "mark": "坚"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "网盘",
+    "name": "永硕E盘",
+    "url": "http://ys168.com/",
+    "description": "网盘 · 常用站点",
+    "mark": "永"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "网盘",
+    "name": "夸克网盘",
+    "url": "https://pan.quark.cn/",
+    "description": "网盘 · 常用站点",
+    "mark": "夸"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "网盘",
+    "name": "腾讯微云",
+    "url": "https://www.weiyun.com/",
+    "description": "网盘 · 常用站点",
+    "mark": "腾"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "网盘",
+    "name": "UC网盘",
+    "url": "https://drive.uc.cn/",
+    "description": "网盘 · 常用站点",
+    "mark": "U"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "网盘",
+    "name": "迅雷云盘",
+    "url": "https://pan.xunlei.com/",
+    "description": "网盘 · 常用站点",
+    "mark": "迅"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "网盘",
+    "name": "123云盘",
+    "url": "https://www.123pan.com/",
+    "description": "网盘 · 常用站点",
+    "mark": "1"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "邮箱",
+    "name": "QQ邮箱",
+    "url": "https://mail.qq.com/",
+    "description": "邮箱 · 常用站点",
+    "mark": "Q"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "邮箱",
+    "name": "163邮箱",
+    "url": "https://mail.163.com/",
+    "description": "邮箱 · 常用站点",
+    "mark": "1"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "邮箱",
+    "name": "126邮箱",
+    "url": "http://www.126.com/",
+    "description": "邮箱 · 常用站点",
+    "mark": "1"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "邮箱",
+    "name": "Gmail",
+    "url": "https://mail.google.com/",
+    "description": "邮箱 · 常用站点",
+    "mark": "G"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "邮箱",
+    "name": "新浪邮箱",
+    "url": "https://mail.sina.com.cn/",
+    "description": "邮箱 · 常用站点",
+    "mark": "新"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "邮箱",
+    "name": "outlook",
+    "url": "https://www.outlook.com/",
+    "description": "邮箱 · 常用站点",
+    "mark": "O"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "邮箱",
+    "name": "139邮箱",
+    "url": "https://mail.10086.cn/",
+    "description": "邮箱 · 常用站点",
+    "mark": "1"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "视频",
+    "name": "哔哩哔哩",
+    "url": "https://www.bilibili.com/",
+    "description": "视频 · 常用站点",
+    "mark": "哔"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "视频",
+    "name": "猫眼票房",
+    "url": "https://piaofang.maoyan.com/dashboard",
+    "description": "视频 · 常用站点",
+    "mark": "猫"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "视频",
+    "name": "抖音",
+    "url": "https://www.douyin.com/",
+    "description": "视频 · 常用站点",
+    "mark": "抖"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "视频",
+    "name": "CCTV央视",
+    "url": "https://tv.cctv.com/",
+    "description": "视频 · 常用站点",
+    "mark": "C"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "视频",
+    "name": "预告片世界",
+    "url": "https://6huo.com/",
+    "description": "视频 · 常用站点",
+    "mark": "预"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "视频",
+    "name": "新片场",
+    "url": "https://www.xinpianchang.com/",
+    "description": "视频 · 常用站点",
+    "mark": "新"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "视频",
+    "name": "开眼视频",
+    "url": "https://www.kaiyanapp.com/",
+    "description": "视频 · 常用站点",
+    "mark": "开"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "视频",
+    "name": "腾讯视频",
+    "url": "https://v.qq.com/",
+    "description": "视频 · 常用站点",
+    "mark": "腾"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "视频",
+    "name": "爱奇艺",
+    "url": "https://www.iqiyi.com/",
+    "description": "视频 · 常用站点",
+    "mark": "爱"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "视频",
+    "name": "优酷",
+    "url": "https://www.youku.com/",
+    "description": "视频 · 常用站点",
+    "mark": "优"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "视频",
+    "name": "电影台词搜索+拼接",
+    "url": "https://zyscj.com/zy/tool/actorline.html",
+    "description": "视频 · 常用站点",
+    "mark": "电"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "出行",
+    "name": "百度地图",
+    "url": "https://map.baidu.com/",
+    "description": "出行 · 常用站点",
+    "mark": "百"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "出行",
+    "name": "高德地图",
+    "url": "https://www.amap.com/",
+    "description": "出行 · 常用站点",
+    "mark": "高"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "出行",
+    "name": "谷歌地球",
+    "url": "https://earth.google.com/",
+    "description": "出行 · 常用站点",
+    "mark": "谷"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "出行",
+    "name": "去哪儿",
+    "url": "https://www.qunar.com/",
+    "description": "出行 · 常用站点",
+    "mark": "去"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "出行",
+    "name": "携程旅行",
+    "url": "https://www.ctrip.com/",
+    "description": "出行 · 常用站点",
+    "mark": "携"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "出行",
+    "name": "飞猪",
+    "url": "https://www.fliggy.com/",
+    "description": "出行 · 常用站点",
+    "mark": "飞"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "出行",
+    "name": "马蜂窝",
+    "url": "https://www.mafengwo.cn/",
+    "description": "出行 · 常用站点",
+    "mark": "马"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "出行",
+    "name": "途牛旅游",
+    "url": "https://www.tuniu.com/",
+    "description": "出行 · 常用站点",
+    "mark": "途"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "出行",
+    "name": "同程旅行",
+    "url": "https://www.ly.com/",
+    "description": "出行 · 常用站点",
+    "mark": "同"
+  },
+  {
+    "category": "常用站点",
+    "subcategory": "出行",
+    "name": "铁路12306",
+    "url": "https://www.12306.cn/",
+    "description": "出行 · 常用站点",
+    "mark": "铁"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "映像星球",
+    "url": "http://www.yxxq25.cc/",
+    "description": "综合 · 视频直播",
+    "mark": "映"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "两个BT（4K)",
+    "url": "https://www.bttwo.vip/",
+    "description": "综合 · 视频直播",
+    "mark": "两"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "厂长资源",
+    "url": "https://cz01.tv/",
+    "description": "综合 · 视频直播",
+    "mark": "厂"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "注视影视",
+    "url": "https://gaze.red/",
+    "description": "综合 · 视频直播",
+    "mark": "注"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "云朵影视",
+    "url": "https://yunduoyingshi.com/",
+    "description": "综合 · 视频直播",
+    "mark": "云"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "AUETE影视",
+    "url": "https://auete.asia/",
+    "description": "综合 · 视频直播",
+    "mark": "A"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "剧OK",
+    "url": "https://juok3.top/",
+    "description": "综合 · 视频直播",
+    "mark": "剧"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "SOTVLA",
+    "url": "https://www.sotvla.cc/",
+    "description": "综合 · 视频直播",
+    "mark": "S"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "永乐视频",
+    "url": "https://www.ylsp.lv/",
+    "description": "综合 · 视频直播",
+    "mark": "永"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "看片狂人",
+    "url": "https://codepen.io/KungfuF-Loma/full/GgNKJOM",
+    "description": "综合 · 视频直播",
+    "mark": "看"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "电影人生",
+    "url": "http://dyrs.me/",
+    "description": "综合 · 视频直播",
+    "mark": "电"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "剧圈圈",
+    "url": "https://link3.cc/jqqzx",
+    "description": "综合 · 视频直播",
+    "mark": "剧"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "金牌影院",
+    "url": "https://hnytxj.com/",
+    "description": "综合 · 视频直播",
+    "mark": "金"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "猴影工坊",
+    "url": "https://monkey-flix.com/",
+    "description": "综合 · 视频直播",
+    "mark": "猴"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "麦田影院",
+    "url": "https://www.mtyy1.cc/",
+    "description": "综合 · 视频直播",
+    "mark": "麦"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "布布追剧",
+    "url": "https://asd123sx23xdacsx.top/",
+    "description": "综合 · 视频直播",
+    "mark": "布"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "搜片.com",
+    "url": "https://soupian.plus/",
+    "description": "综合 · 视频直播",
+    "mark": "搜"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "麒麟影视",
+    "url": "https://www.qlys.cc/",
+    "description": "综合 · 视频直播",
+    "mark": "麒"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "西瓜影院",
+    "url": "https://www.xiguadh.com/",
+    "description": "综合 · 视频直播",
+    "mark": "西"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "4K影视",
+    "url": "https://4kvm.site/",
+    "description": "综合 · 视频直播",
+    "mark": "4"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "共青春影院",
+    "url": "https://gqc.ink/",
+    "description": "综合 · 视频直播",
+    "mark": "共"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "PPNIX",
+    "url": "https://www.ppnix.com/",
+    "description": "综合 · 视频直播",
+    "mark": "P"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "综合",
+    "name": "电视盒子影视直播",
+    "url": "https://zyscj.com/zy/video/tv.html",
+    "description": "综合 · 视频直播",
+    "mark": "电"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "低调影视",
+    "url": "https://ddys.app/",
+    "description": "海外 · 视频直播",
+    "mark": "低"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "lib在线视频",
+    "url": "https://www.libvio.app/",
+    "description": "海外 · 视频直播",
+    "mark": "L"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "NOVIPNOAD【梯】",
+    "url": "https://www.novipnoad.net/",
+    "description": "海外 · 视频直播",
+    "mark": "N"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "HDmoli",
+    "url": "https://www.molicp.com/",
+    "description": "海外 · 视频直播",
+    "mark": "H"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "字幕组翻译",
+    "url": "https://zyscj.com/zy/video/subtitle.html",
+    "description": "海外 · 视频直播",
+    "mark": "字"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "人人影视分享下载",
+    "url": "https://yyets.click/",
+    "description": "海外 · 视频直播",
+    "mark": "人"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "韩国跑男综艺网",
+    "url": "http://www.runningman365.com/",
+    "description": "海外 · 视频直播",
+    "mark": "韩"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "奈飞工厂",
+    "url": "https://netflixgc.net/",
+    "description": "海外 · 视频直播",
+    "mark": "奈"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "美剧迷",
+    "url": "https://www.meijumi.net/",
+    "description": "海外 · 视频直播",
+    "mark": "美"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "追新番",
+    "url": "https://www.fanxinzhui.com/",
+    "description": "海外 · 视频直播",
+    "mark": "追"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "日剧跑",
+    "url": "https://www.rijupao.com/",
+    "description": "海外 · 视频直播",
+    "mark": "日"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "国内外纪录片索引",
+    "url": "https://zyscj.com/zy/video/documentary.html",
+    "description": "海外 · 视频直播",
+    "mark": "国"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "埋堆堆港剧",
+    "url": "https://www.mddcloud.com.cn/",
+    "description": "海外 · 视频直播",
+    "mark": "埋"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "91美剧网",
+    "url": "https://91mjw.tv/",
+    "description": "海外 · 视频直播",
+    "mark": "9"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "港剧天堂",
+    "url": "https://www.gjtt.net/",
+    "description": "海外 · 视频直播",
+    "mark": "港"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "心动日剧",
+    "url": "http://www.doki8.net/",
+    "description": "海外 · 视频直播",
+    "mark": "心"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "海外",
+    "name": "在线之家",
+    "url": "https://www.zxzj.run/",
+    "description": "海外 · 视频直播",
+    "mark": "在"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "高清4K电影下载",
+    "url": "https://zyscj.com/zy/video/HDvideo.html",
+    "description": "下载 · 视频直播",
+    "mark": "高"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "观影 GYING",
+    "url": "https://www.xn--ykq321c.com/",
+    "description": "下载 · 视频直播",
+    "mark": "观"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "BT之家",
+    "url": "https://www.1lou.me/",
+    "description": "下载 · 视频直播",
+    "mark": "B"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "团长资源【梯】",
+    "url": "https://t-rex.tzfile.com/",
+    "description": "下载 · 视频直播",
+    "mark": "团"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "音范丝",
+    "url": "https://www.yinfans.cc/",
+    "description": "下载 · 视频直播",
+    "mark": "音"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "Seedhub",
+    "url": "https://xn--qvr66slqr.com/",
+    "description": "下载 · 视频直播",
+    "mark": "S"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "飘花资源网",
+    "url": "https://www.piaohua.com/",
+    "description": "下载 · 视频直播",
+    "mark": "飘"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "校长影视",
+    "url": "http://xzys.fun/",
+    "description": "下载 · 视频直播",
+    "mark": "校"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "比特大雄",
+    "url": "https://www.btdx8.net/",
+    "description": "下载 · 视频直播",
+    "mark": "比"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "人人影视字幕组",
+    "url": "https://www.yyets.net/",
+    "description": "下载 · 视频直播",
+    "mark": "人"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "IMAX4K 影视",
+    "url": "https://www.imax4k.com/",
+    "description": "下载 · 视频直播",
+    "mark": "I"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "动漫BT种Z下载",
+    "url": "https://zyscj.com/zy/video/anime.html",
+    "description": "下载 · 视频直播",
+    "mark": "动"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "苏苏影视分享",
+    "url": "https://susuifa.com/",
+    "description": "下载 · 视频直播",
+    "mark": "苏"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "磁力熊",
+    "url": "https://www.cilixiong.xyz/",
+    "description": "下载 · 视频直播",
+    "mark": "磁"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "皮皮虾资源",
+    "url": "https://ppxzy.top/",
+    "description": "下载 · 视频直播",
+    "mark": "皮"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "4K原盘指南",
+    "url": "https://4kzn.cc/",
+    "description": "下载 · 视频直播",
+    "mark": "4"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "Chaospace",
+    "url": "https://www.chaospace.xyz/",
+    "description": "下载 · 视频直播",
+    "mark": "C"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "人人电影网",
+    "url": "https://www.rrdynb.com/index.html",
+    "description": "下载 · 视频直播",
+    "mark": "人"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "不太灵影视[收费]",
+    "url": "https://www.butailing.com/",
+    "description": "下载 · 视频直播",
+    "mark": "不"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "小悠家",
+    "url": "http://jj.xiaouj.cn/",
+    "description": "下载 · 视频直播",
+    "mark": "小"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "TV综合吧微博",
+    "url": "https://weibo.com/u/5260536046",
+    "description": "下载 · 视频直播",
+    "mark": "T"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "MINI4K迷客电影",
+    "url": "https://www.mini4k.com/",
+    "description": "下载 · 视频直播",
+    "mark": "M"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "6V电影网",
+    "url": "https://www.xb6v.com/",
+    "description": "下载 · 视频直播",
+    "mark": "6"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "下载",
+    "name": "电影天堂【梯】",
+    "url": "https://www.dytt8899.com/",
+    "description": "下载 · 视频直播",
+    "mark": "电"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "哔哩哔哩",
+    "url": "https://www.bilibili.com/",
+    "description": "动漫 · 视频直播",
+    "mark": "哔"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "次元城动漫",
+    "url": "https://www.cycity.pro/",
+    "description": "动漫 · 视频直播",
+    "mark": "次"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "路漫漫",
+    "url": "https://ho9.net/lmm",
+    "description": "动漫 · 视频直播",
+    "mark": "路"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "稀饭动漫",
+    "url": "https://xn--6fr867dwnhpu5a.com/",
+    "description": "动漫 · 视频直播",
+    "mark": "稀"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "哔咪哔咪",
+    "url": "https://www.bimiacg.icu/",
+    "description": "动漫 · 视频直播",
+    "mark": "哔"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "AGE动漫",
+    "url": "http://age.tv/",
+    "description": "动漫 · 视频直播",
+    "mark": "A"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "番薯动漫",
+    "url": "https://fsdm.top/",
+    "description": "动漫 · 视频直播",
+    "mark": "番"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "girigiri爱动漫",
+    "url": "https://anime.girigirilove.com/",
+    "description": "动漫 · 视频直播",
+    "mark": "G"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "囧次元",
+    "url": "https://www.jcydmz.com/",
+    "description": "动漫 · 视频直播",
+    "mark": "囧"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "动漫BT种Z下载",
+    "url": "https://zyscj.com/zy/video/anime.html",
+    "description": "动漫 · 视频直播",
+    "mark": "动"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "动漫巴士",
+    "url": "http://dm84.pro/",
+    "description": "动漫 · 视频直播",
+    "mark": "动"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "P站（pixiv）第三方",
+    "url": "https://zyscj.com/zy/book/pixiv.html",
+    "description": "动漫 · 视频直播",
+    "mark": "P"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "橘子动漫",
+    "url": "https://www.mgnacg.com/",
+    "description": "动漫 · 视频直播",
+    "mark": "橘"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "HKanime 香港動畫網",
+    "url": "https://www.hkanime.com/",
+    "description": "动漫 · 视频直播",
+    "mark": "H"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "花子动漫",
+    "url": "https://www.huazidm.com/",
+    "description": "动漫 · 视频直播",
+    "mark": "花"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "喵物次元",
+    "url": "https://www.mwcy.net/",
+    "description": "动漫 · 视频直播",
+    "mark": "喵"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "打驴动漫",
+    "url": "https://www.dlidli.app/",
+    "description": "动漫 · 视频直播",
+    "mark": "打"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "Anime【梯】",
+    "url": "https://anime1.me/",
+    "description": "动漫 · 视频直播",
+    "mark": "A"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "动漫",
+    "name": "番组放送",
+    "url": "https://bgmlist.com/",
+    "description": "动漫 · 视频直播",
+    "mark": "番"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "富强",
+    "name": "爱壹帆【梯】",
+    "url": "https://www.yfsp.tv/",
+    "description": "富强 · 视频直播",
+    "mark": "爱"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "富强",
+    "name": "独播库【梯】",
+    "url": "https://www.dbku.tv/",
+    "description": "富强 · 视频直播",
+    "mark": "独"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "富强",
+    "name": "小宝影院【梯】",
+    "url": "https://www.xiaobaotv.com/",
+    "description": "富强 · 视频直播",
+    "mark": "小"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "富强",
+    "name": "欧乐影视【梯】",
+    "url": "https://www.olevod.tv/",
+    "description": "富强 · 视频直播",
+    "mark": "欧"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "富强",
+    "name": "华人影院【梯】",
+    "url": "https://huarw.com/",
+    "description": "富强 · 视频直播",
+    "mark": "华"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "富强",
+    "name": "泥视频【梯】",
+    "url": "https://www.nivod.vip/",
+    "description": "富强 · 视频直播",
+    "mark": "泥"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "富强",
+    "name": "八号影视【梯】",
+    "url": "https://www.bahaotv.com/",
+    "description": "富强 · 视频直播",
+    "mark": "八"
+  },
+  {
+    "category": "视频直播",
+    "subcategory": "富强",
+    "name": "泥巴影院【梯】",
+    "url": "https://www.nbyy.cc/",
+    "description": "富强 · 视频直播",
+    "mark": "泥"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "盘了个盘",
+    "url": "https://www.panlegepan.com/",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "盘"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "观影 GYING",
+    "url": "https://www.xn--ykq321c.com/",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "观"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "各大网盘搜索资源",
+    "url": "https://zyscj.com/zy/search/diskresource.html",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "各"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "TG频道索引【梯】",
+    "url": "https://zyscj.com/zy/search/tgchannel.html",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "T"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "易搜",
+    "url": "https://yiso.fun/",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "易"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "小云搜索",
+    "url": "https://www.yunso.net/",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "小"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "爱盘搜",
+    "url": "https://aipanso.com/",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "爱"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "PanSearch",
+    "url": "https://www.pansearch.me/",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "P"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "又一个资源",
+    "url": "https://www.so1st.com/",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "又"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "夸夸盘搜",
+    "url": "https://www.kuakuaso.com/",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "夸"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "AIPAN搜索",
+    "url": "https://www.aipan.me/",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "A"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "皮卡搜",
+    "url": "https://www.pikasoo.top/",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "皮"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "咔帕搜索",
+    "url": "https://www.cuppaso.com/",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "咔"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "橘子盘搜",
+    "url": "https://www.nmme.one/",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "橘"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "百度云不限速下载",
+    "url": "https://zyscj.com/zy/search/spnetdisk.html",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "百"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "凌风云搜索",
+    "url": "https://www.lingfengyun.com/",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "凌"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "网盘搜索",
+    "name": "大力盘",
+    "url": "http://www.dalipan.xyz/#/",
+    "description": "网盘搜索 · 资源搜索",
+    "mark": "大"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "磁L搜索",
+    "name": "BT磁L搜索站合集",
+    "url": "https://zyscj.com/zy/search/btciliweb.html",
+    "description": "磁L搜索 · 资源搜索",
+    "mark": "B"
+  },
+  {
+    "category": "资源搜索",
+    "subcategory": "磁L搜索",
+    "name": "BT磁L软件",
+    "url": "https://zyscj.com/zy/search/btcilidl.html",
+    "description": "磁L搜索 · 资源搜索",
+    "mark": "B"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "软件分享与博客",
+    "url": "https://zyscj.com/zy/soft/blogforum.html",
+    "description": "综合 · 软件游戏",
+    "mark": "软"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "发现新网站/应用",
+    "url": "https://zyscj.com/zy/soft/findsoft.html",
+    "description": "综合 · 软件游戏",
+    "mark": "发"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "常用Win软件",
+    "url": "https://zyscj.com/zy/soft/winsoft.html",
+    "description": "综合 · 软件游戏",
+    "mark": "常"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "TG软件破jie频道【梯】",
+    "url": "https://zyscj.com/zy/soft/tgsoft.html",
+    "description": "综合 · 软件游戏",
+    "mark": "T"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "国外pojie站",
+    "url": "https://zyscj.com/zy/soft/crackabroad.html",
+    "description": "综合 · 软件游戏",
+    "mark": "国"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "蓝奏云与软件安装大全",
+    "url": "https://zyscj.com/zy/soft/lanzou.html",
+    "description": "综合 · 软件游戏",
+    "mark": "蓝"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "吾爱破jie",
+    "url": "https://www.52pojie.cn/",
+    "description": "综合 · 软件游戏",
+    "mark": "吾"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "423Down",
+    "url": "https://www.423down.com/",
+    "description": "综合 · 软件游戏",
+    "mark": "4"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "Downloadly",
+    "url": "https://downloadlynet.ir/",
+    "description": "综合 · 软件游戏",
+    "mark": "D"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "小众软件",
+    "url": "https://www.appinn.com/",
+    "description": "综合 · 软件游戏",
+    "mark": "小"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "西部落",
+    "url": "https://www.xibuluo.com/",
+    "description": "综合 · 软件游戏",
+    "mark": "西"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "异星软件空间",
+    "url": "https://www.yxssp.com/",
+    "description": "综合 · 软件游戏",
+    "mark": "异"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "GitHub+加速下载",
+    "url": "https://zyscj.com/zy/study/mirror.html",
+    "description": "综合 · 软件游戏",
+    "mark": "G"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "APP热",
+    "url": "https://apphot.cc/",
+    "description": "综合 · 软件游戏",
+    "mark": "A"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "果核剥壳",
+    "url": "https://www.ghxi.com/",
+    "description": "综合 · 软件游戏",
+    "mark": "果"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "Windows系统下载",
+    "url": "https://zyscj.com/zy/soft/winsystem.html",
+    "description": "综合 · 软件游戏",
+    "mark": "W"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "腾龙工作室",
+    "url": "https://www.tenlonstudio.com/",
+    "description": "综合 · 软件游戏",
+    "mark": "腾"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "小刀娱乐网",
+    "url": "https://xd.x6d.com/html/23.html",
+    "description": "综合 · 软件游戏",
+    "mark": "小"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "鸭先知",
+    "url": "https://www.yxzhi.com/",
+    "description": "综合 · 软件游戏",
+    "mark": "鸭"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "懒得勤快",
+    "url": "https://masuit.org/",
+    "description": "综合 · 软件游戏",
+    "mark": "懒"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "A姐分享",
+    "url": "https://www.ahhhhfs.com/",
+    "description": "综合 · 软件游戏",
+    "mark": "A"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "综合",
+    "name": "枫音应用",
+    "url": "https://www.fy6b.com/",
+    "description": "综合 · 软件游戏",
+    "mark": "枫"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "安卓",
+    "name": "安卓软件与pojie",
+    "url": "https://zyscj.com/zy/soft/android.html",
+    "description": "安卓 · 软件游戏",
+    "mark": "安"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "安卓",
+    "name": "TG软件破jie频道【梯】",
+    "url": "https://zyscj.com/zy/soft/tgsoft.html",
+    "description": "安卓 · 软件游戏",
+    "mark": "T"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "安卓",
+    "name": "蓝奏云与软件安装大全",
+    "url": "https://zyscj.com/zy/soft/lanzou.html",
+    "description": "安卓 · 软件游戏",
+    "mark": "蓝"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "安卓",
+    "name": "Google Play【梯】",
+    "url": "https://play.google.com/store/apps",
+    "description": "安卓 · 软件游戏",
+    "mark": "G"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "安卓",
+    "name": "XDA社区",
+    "url": "https://forum.xda-developers.com/",
+    "description": "安卓 · 软件游戏",
+    "mark": "X"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "安卓",
+    "name": "优质APP集散地",
+    "url": "https://www.lanzoux.com/u/yoyodadada",
+    "description": "安卓 · 软件游戏",
+    "mark": "优"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "安卓",
+    "name": "Mobilism【梯】",
+    "url": "https://forum.mobilism.org/index.php",
+    "description": "安卓 · 软件游戏",
+    "mark": "M"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "安卓",
+    "name": "手机高手",
+    "url": "http://sjgs3.lexun.cn/bbs_listbymodel.aspx?forumid=9021",
+    "description": "安卓 · 软件游戏",
+    "mark": "手"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "安卓",
+    "name": "znds智能电视网",
+    "url": "https://www.znds.com/",
+    "description": "安卓 · 软件游戏",
+    "mark": "Z"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "安卓",
+    "name": "F-Droid【梯】",
+    "url": "https://f-droid.org/",
+    "description": "安卓 · 软件游戏",
+    "mark": "F"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "安卓",
+    "name": "【梯】ihackedit",
+    "url": "https://ihackedit.com/",
+    "description": "安卓 · 软件游戏",
+    "mark": "【"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "安卓",
+    "name": "【梯】Rexdl",
+    "url": "https://rexdl.com/",
+    "description": "安卓 · 软件游戏",
+    "mark": "【"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "苹果",
+    "name": "ios+mac资源索引",
+    "url": "https://zyscj.com/zy/soft/iosmac.html",
+    "description": "苹果 · 软件游戏",
+    "mark": "I"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "苹果",
+    "name": "麦氪搜(iMacso.com)",
+    "url": "https://www.imacso.com/",
+    "description": "苹果 · 软件游戏",
+    "mark": "麦"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "苹果",
+    "name": "MacZ",
+    "url": "https://www.macz.com/",
+    "description": "苹果 · 软件游戏",
+    "mark": "M"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "苹果",
+    "name": "苹果软件盒子",
+    "url": "https://www.macappbox.com/",
+    "description": "苹果 · 软件游戏",
+    "mark": "苹"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "苹果",
+    "name": "MACstore",
+    "url": "https://macstore.info/",
+    "description": "苹果 · 软件游戏",
+    "mark": "M"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "苹果",
+    "name": "威锋社区",
+    "url": "https://www.feng.com/forum/23",
+    "description": "苹果 · 软件游戏",
+    "mark": "威"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "苹果",
+    "name": "史蒂芬周",
+    "url": "http://www.sdifen.com/",
+    "description": "苹果 · 软件游戏",
+    "mark": "史"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "苹果",
+    "name": "MAC毒",
+    "url": "https://www.macdo.cn/",
+    "description": "苹果 · 软件游戏",
+    "mark": "M"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "苹果",
+    "name": "Xclient",
+    "url": "http://xclient.info/",
+    "description": "苹果 · 软件游戏",
+    "mark": "X"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "苹果",
+    "name": "MacSKY",
+    "url": "https://www.macsky.net/",
+    "description": "苹果 · 软件游戏",
+    "mark": "M"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "苹果",
+    "name": "马可菠萝",
+    "url": "https://www.macbl.com/",
+    "description": "苹果 · 软件游戏",
+    "mark": "马"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "苹果",
+    "name": "MacApp.so",
+    "url": "https://www.macapp.so/",
+    "description": "苹果 · 软件游戏",
+    "mark": "M"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "苹果",
+    "name": "玩转苹果",
+    "url": "https://www.ifunmac.com/",
+    "description": "苹果 · 软件游戏",
+    "mark": "玩"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "苹果",
+    "name": "Xclient",
+    "url": "https://xclient.info/",
+    "description": "苹果 · 软件游戏",
+    "mark": "X"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "苹果",
+    "name": "爱思助手",
+    "url": "https://www.i4.cn/",
+    "description": "苹果 · 软件游戏",
+    "mark": "爱"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "在线网页游戏",
+    "url": "https://zyscj.com/zy/soft/onlinegame.html",
+    "description": "游戏 · 软件游戏",
+    "mark": "在"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "PC单机pojie游戏",
+    "url": "https://zyscj.com/zy/soft/crackgame.html",
+    "description": "游戏 · 软件游戏",
+    "mark": "P"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "GBT小组游戏空间",
+    "url": "https://pan.gbtgame.me/",
+    "description": "游戏 · 软件游戏",
+    "mark": "G"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "TapTap",
+    "url": "https://www.taptap.com/",
+    "description": "游戏 · 软件游戏",
+    "mark": "T"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "Steam",
+    "url": "https://store.steampowered.com/",
+    "description": "游戏 · 软件游戏",
+    "mark": "S"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "小霸王游戏",
+    "url": "https://www.yikm.net/",
+    "description": "游戏 · 软件游戏",
+    "mark": "小"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "Switch520",
+    "url": "https://laoquzhang.com/",
+    "description": "游戏 · 软件游戏",
+    "mark": "S"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "畅玩空间",
+    "url": "https://www.wo1wan.com/",
+    "description": "游戏 · 软件游戏",
+    "mark": "畅"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "灵动游戏",
+    "url": "http://www.mhhf.com/",
+    "description": "游戏 · 软件游戏",
+    "mark": "灵"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "乐猪游戏",
+    "url": "https://www.lezhugame.com/",
+    "description": "游戏 · 软件游戏",
+    "mark": "乐"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "小妖怪分享网",
+    "url": "https://www.xyg688.com/",
+    "description": "游戏 · 软件游戏",
+    "mark": "小"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "Linux游戏站",
+    "url": "https://www.linuxgame.cn/",
+    "description": "游戏 · 软件游戏",
+    "mark": "L"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "【梯】byrut-俄罗斯",
+    "url": "https://byrut.org/",
+    "description": "游戏 · 软件游戏",
+    "mark": "【"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "在线dos游戏",
+    "url": "https://dos.lol/",
+    "description": "游戏 · 软件游戏",
+    "mark": "在"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "在线红警",
+    "url": "https://chronodivide.com/",
+    "description": "游戏 · 软件游戏",
+    "mark": "在"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "疯狂游戏",
+    "url": "https://www.crazygames.com/",
+    "description": "游戏 · 软件游戏",
+    "mark": "疯"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "4399",
+    "url": "https://www.4399.com/",
+    "description": "游戏 · 软件游戏",
+    "mark": "4"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "BestGames",
+    "url": "https://www.bestgames.com/",
+    "description": "游戏 · 软件游戏",
+    "mark": "B"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "老男人游戏网",
+    "url": "https://www.oldmantvg.net/",
+    "description": "游戏 · 软件游戏",
+    "mark": "老"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "游戏",
+    "name": "国治游戏精品网(绿色站)",
+    "url": "http://www.emu618.net/",
+    "description": "游戏 · 软件游戏",
+    "mark": "国"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "浏览器",
+    "name": "浏览器及插件脚本",
+    "url": "https://zyscj.com/zy/soft/browser.html",
+    "description": "浏览器 · 软件游戏",
+    "mark": "浏"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "浏览器",
+    "name": "Chrome商店【梯】",
+    "url": "https://chrome.google.com/webstore/category/extensions",
+    "description": "浏览器 · 软件游戏",
+    "mark": "C"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "浏览器",
+    "name": "Greasy Fork(油猴脚本)【梯】",
+    "url": "https://greasyfork.org/zh-CN",
+    "description": "浏览器 · 软件游戏",
+    "mark": "G"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "浏览器",
+    "name": "Chrome插件推荐",
+    "url": "https://adzhp.cc/chromecj.html",
+    "description": "浏览器 · 软件游戏",
+    "mark": "C"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "浏览器",
+    "name": "GitHub+加速下载",
+    "url": "https://zyscj.com/zy/study/mirror.html",
+    "description": "浏览器 · 软件游戏",
+    "mark": "G"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "浏览器",
+    "name": "奔跑中的奶酪",
+    "url": "https://www.runningcheese.com/",
+    "description": "浏览器 · 软件游戏",
+    "mark": "奔"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "浏览器",
+    "name": "油猴中文网",
+    "url": "https://bbs.tampermonkey.net.cn/",
+    "description": "浏览器 · 软件游戏",
+    "mark": "油"
+  },
+  {
+    "category": "软件游戏",
+    "subcategory": "浏览器",
+    "name": "CRX搜搜",
+    "url": "https://www.crxsoso.com/",
+    "description": "浏览器 · 软件游戏",
+    "mark": "C"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "Z-Library",
+    "url": "https://zyscj.com/zy/book/zlibrary.html",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "Z"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "电子书杂志资源",
+    "url": "https://zyscj.com/zy/book/ebook.html",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "电"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "安娜的档案【梯】",
+    "url": "https://annas-archive.gl/",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "安"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "小说书籍软件",
+    "url": "https://zyscj.com/zy/book/ebooksoft.html",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "小"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "免费网络小说",
+    "url": "https://zyscj.com/zy/book/fiction.html",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "免"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "英文电子书",
+    "url": "https://zyscj.com/zy/book/enbook.html",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "英"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "24小时搜书",
+    "url": "https://24hbook.com/",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "2"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "SaltyLeo 的书架",
+    "url": "https://book.tstrs.me/",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "S"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "找书网(仅查找)",
+    "url": "https://findbooks.eu.org/",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "找"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "飞库网",
+    "url": "https://www.feiku6.com/index.html",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "飞"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "历史古籍",
+    "url": "https://zyscj.com/zy/book/ancient.html",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "历"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "苦瓜书盘",
+    "url": "https://kgbook.com/",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "苦"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "电子课本下载",
+    "url": "https://zyscj.com/zy/study/textbook.html",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "电"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "熊猫搜索导航",
+    "url": "https://xmsoushu.com/",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "熊"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "知轩藏书-备份",
+    "url": "https://zxcs.zip/",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "知"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "书葵网",
+    "url": "https://www.shukui.net/",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "书"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "读书小站",
+    "url": "https://ibooks.org.cn/",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "读"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "PDF Drive【梯】",
+    "url": "https://www.pdfdrive.com/",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "P"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "【梯】好读",
+    "url": "http://www.haodoo.net/",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "【"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "阅读小说",
+    "name": "书伴",
+    "url": "https://bookfere.com/",
+    "description": "阅读小说 · 阅读漫画",
+    "mark": "书"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "在线漫画网站",
+    "url": "https://zyscj.com/zy/book/comic.html",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "在"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "kindle漫画",
+    "url": "https://zyscj.com/zy/book/comic.html#kindle%E6%BC%AB%E7%94%BB",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "K"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "mox.moe",
+    "url": "https://mox.moe/",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "M"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "搜漫",
+    "url": "https://www.hisoman.com/",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "搜"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "MYCOMIC",
+    "url": "https://mycomic.com/",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "M"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "拷貝漫畫",
+    "url": "https://www.copy3000.com/",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "拷"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "komiic【梯】",
+    "url": "https://komiic.com/",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "K"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "包子漫画",
+    "url": "https://baozimh.com/",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "包"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "P站（pixiv）第三方",
+    "url": "https://zyscj.com/zy/book/pixiv.html",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "P"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "G站漫畫",
+    "url": "https://n.telltome.net/",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "G"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "TalkOP海道",
+    "url": "https://bbs.talkop.com/",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "T"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "XManhua【梯】",
+    "url": "https://xmanhua.com/",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "X"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "Colamanga漫画【梯】",
+    "url": "https://www.colamanga.com/",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "C"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "GaDa漫畫",
+    "url": "https://godamh.com/",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "G"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "【梯】Mangabz",
+    "url": "http://www.mangabz.com/",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "【"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "动漫屋",
+    "url": "http://www.dm5.com/",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "动"
+  },
+  {
+    "category": "阅读漫画",
+    "subcategory": "免费漫画",
+    "name": "风之动漫",
+    "url": "https://www.fffdm.com/",
+    "description": "免费漫画 · 阅读漫画",
+    "mark": "风"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "在线音乐",
+    "name": "在线音乐资源与分享",
+    "url": "https://zyscj.com/zy/music/musicwebsite.html",
+    "description": "在线音乐 · 音乐动听",
+    "mark": "在"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "在线音乐",
+    "name": "音乐软件下载",
+    "url": "https://zyscj.com/zy/music/musicsoftware.html",
+    "description": "在线音乐 · 音乐动听",
+    "mark": "音"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "在线音乐",
+    "name": "有声书与电台",
+    "url": "https://zyscj.com/zy/music/audiobook.html",
+    "description": "在线音乐 · 音乐动听",
+    "mark": "有"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "在线音乐",
+    "name": "白噪音与MV",
+    "url": "https://zyscj.com/zy/music/whitenoise.html",
+    "description": "在线音乐 · 音乐动听",
+    "mark": "白"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "在线音乐",
+    "name": "MyFreeMp3-tool",
+    "url": "http://tool.liumingye.cn/music",
+    "description": "在线音乐 · 音乐动听",
+    "mark": "M"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "在线音乐",
+    "name": "音乐魔石",
+    "url": "https://yym4s.com/",
+    "description": "在线音乐 · 音乐动听",
+    "mark": "音"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "在线音乐",
+    "name": "下歌吧",
+    "url": "https://xiageba.com/",
+    "description": "在线音乐 · 音乐动听",
+    "mark": "下"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "在线音乐",
+    "name": "zz123",
+    "url": "https://zz123.com/",
+    "description": "在线音乐 · 音乐动听",
+    "mark": "Z"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "在线音乐",
+    "name": "昔枫音乐盒",
+    "url": "https://mu-jie.cc/musicBox",
+    "description": "在线音乐 · 音乐动听",
+    "mark": "昔"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "在线音乐",
+    "name": "音微网",
+    "url": "https://www.yinwe.com/",
+    "description": "在线音乐 · 音乐动听",
+    "mark": "音"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "在线音乐",
+    "name": "放屁音乐网",
+    "url": "https://www.fangpi.net/",
+    "description": "在线音乐 · 音乐动听",
+    "mark": "放"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "在线音乐",
+    "name": "ACG漫音社",
+    "url": "http://www.acgjc.com/",
+    "description": "在线音乐 · 音乐动听",
+    "mark": "A"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "无损音乐",
+    "name": "享乐音乐论坛",
+    "url": "https://www.xlebbs.com/",
+    "description": "无损音乐 · 音乐动听",
+    "mark": "享"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "无损音乐",
+    "name": "音乐磁场",
+    "url": "https://www.hifiti.com/",
+    "description": "无损音乐 · 音乐动听",
+    "mark": "音"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "无损音乐",
+    "name": "易音音乐论坛",
+    "url": "https://sacdr.net/forum.php",
+    "description": "无损音乐 · 音乐动听",
+    "mark": "易"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "无损音乐",
+    "name": "爷们喜欢音乐",
+    "url": "http://blog.sina.com.cn/wfl318",
+    "description": "无损音乐 · 音乐动听",
+    "mark": "爷"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "无损音乐",
+    "name": "5song无损音乐网",
+    "url": "https://www.5song.xyz/",
+    "description": "无损音乐 · 音乐动听",
+    "mark": "5"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "无损音乐",
+    "name": "Mp3Bst",
+    "url": "http://mp3bst.com/",
+    "description": "无损音乐 · 音乐动听",
+    "mark": "M"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "无损音乐",
+    "name": "熊猫无损音乐",
+    "url": "https://www.xmwsyy.com/",
+    "description": "无损音乐 · 音乐动听",
+    "mark": "熊"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "无损音乐",
+    "name": "漫音社",
+    "url": "https://www.acgjc.com/",
+    "description": "无损音乐 · 音乐动听",
+    "mark": "漫"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "无损音乐",
+    "name": "读屏族",
+    "url": "http://www.dupingzu.com/",
+    "description": "无损音乐 · 音乐动听",
+    "mark": "读"
+  },
+  {
+    "category": "音乐动听",
+    "subcategory": "无损音乐",
+    "name": "无损音乐吧",
+    "url": "https://tieba.baidu.com/f?kw=%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90",
+    "description": "无损音乐 · 音乐动听",
+    "mark": "无"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "DeepSeek",
+    "url": "https://chat.deepseek.com/",
+    "description": "AI工具 · 实用工具",
+    "mark": "D"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "Kimi",
+    "url": "https://kimi.moonshot.cn/",
+    "description": "AI工具 · 实用工具",
+    "mark": "K"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "Qwen.ai",
+    "url": "https://qwen.ai/",
+    "description": "AI工具 · 实用工具",
+    "mark": "Q"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "智谱清言",
+    "url": "https://chatglm.cn/",
+    "description": "AI工具 · 实用工具",
+    "mark": "智"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "豆包",
+    "url": "https://www.doubao.com/chat",
+    "description": "AI工具 · 实用工具",
+    "mark": "豆"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "chat-gpt【梯】",
+    "url": "https://chat.openai.com/",
+    "description": "AI工具 · 实用工具",
+    "mark": "C"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "Caude【梯】",
+    "url": "https://claude.ai/",
+    "description": "AI工具 · 实用工具",
+    "mark": "C"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "通义千问",
+    "url": "https://www.qianwen.com/",
+    "description": "AI工具 · 实用工具",
+    "mark": "通"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "小米MIMO",
+    "url": "https://mimo.xiaomi.com/",
+    "description": "AI工具 · 实用工具",
+    "mark": "小"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "文心一言",
+    "url": "https://yiyan.baidu.com/",
+    "description": "AI工具 · 实用工具",
+    "mark": "文"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "讯飞星火",
+    "url": "https://xinghuo.xfyun.cn/desk",
+    "description": "AI工具 · 实用工具",
+    "mark": "讯"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "阶跃AI",
+    "url": "https://chat.stepfun.com/",
+    "description": "AI工具 · 实用工具",
+    "mark": "阶"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "POE【梯】",
+    "url": "https://poe.com/",
+    "description": "AI工具 · 实用工具",
+    "mark": "P"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "百川智能",
+    "url": "https://ying.baichuan-ai.com/chat",
+    "description": "AI工具 · 实用工具",
+    "mark": "百"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "Meta【梯】",
+    "url": "https://www.meta.ai/",
+    "description": "AI工具 · 实用工具",
+    "mark": "M"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "腾讯元宝",
+    "url": "https://yuanbao.tencent.com/",
+    "description": "AI工具 · 实用工具",
+    "mark": "腾"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "Grok",
+    "url": "https://grok.com/",
+    "description": "AI工具 · 实用工具",
+    "mark": "G"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "AI工具",
+    "name": "MiniMax",
+    "url": "https://agent.minimaxi.com/",
+    "description": "AI工具 · 实用工具",
+    "mark": "M"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "在线工具索引",
+    "url": "https://zyscj.com/zy/tool/tools.html",
+    "description": "综合 · 实用工具",
+    "mark": "在"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "OCR文字识别",
+    "url": "https://zyscj.com/zy/tool/ocr.html",
+    "description": "综合 · 实用工具",
+    "mark": "O"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "有趣网址之家",
+    "url": "https://adzhp.cc/youquwangzhizhijia-wangzhisuoyin.html",
+    "description": "综合 · 实用工具",
+    "mark": "有"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "123APPs",
+    "url": "https://123apps.com/cn",
+    "description": "综合 · 实用工具",
+    "mark": "1"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "Miku工具",
+    "url": "https://tools.miku.ac/",
+    "description": "综合 · 实用工具",
+    "mark": "M"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "即时工具",
+    "url": "https://67tool.com/",
+    "description": "综合 · 实用工具",
+    "mark": "即"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "Pickfrom",
+    "url": "https://zh.pickfrom.net/",
+    "description": "综合 · 实用工具",
+    "mark": "P"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "老弟工具-win",
+    "url": "https://ldtstore.com.cn/ldtools",
+    "description": "综合 · 实用工具",
+    "mark": "老"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "一个木函工具箱",
+    "url": "https://ol.woobx.cn/",
+    "description": "综合 · 实用工具",
+    "mark": "一"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "优工具",
+    "url": "https://toolbon.com/",
+    "description": "综合 · 实用工具",
+    "mark": "优"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "toolfk工具人",
+    "url": "https://www.toolfk.com/zh-cn",
+    "description": "综合 · 实用工具",
+    "mark": "T"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "娃娃在线工具",
+    "url": "https://www.iamwawa.cn/",
+    "description": "综合 · 实用工具",
+    "mark": "娃"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "菜鸟工具",
+    "url": "https://c.runoob.com/",
+    "description": "综合 · 实用工具",
+    "mark": "菜"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "一个工具箱",
+    "url": "https://a.tools/",
+    "description": "综合 · 实用工具",
+    "mark": "一"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "精准云工具",
+    "url": "https://qxtool.com/",
+    "description": "综合 · 实用工具",
+    "mark": "精"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "程序员工具箱",
+    "url": "https://tool.lu/",
+    "description": "综合 · 实用工具",
+    "mark": "程"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "爱资料工具箱",
+    "url": "https://www.toolnb.com/",
+    "description": "综合 · 实用工具",
+    "mark": "爱"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "独特工具箱",
+    "url": "https://www.dute.org/",
+    "description": "综合 · 实用工具",
+    "mark": "独"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "综合",
+    "name": "在线免费计算器",
+    "url": "https://jsq3000.com/",
+    "description": "综合 · 实用工具",
+    "mark": "在"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "功能类",
+    "name": "文件格式转换",
+    "url": "https://zyscj.com/zy/tool/fileconvert.html",
+    "description": "功能类 · 实用工具",
+    "mark": "文"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "功能类",
+    "name": "PDF编辑",
+    "url": "https://zyscj.com/zy/tool/pdf.html",
+    "description": "功能类 · 实用工具",
+    "mark": "P"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "功能类",
+    "name": "在线查毒",
+    "url": "https://zyscj.com/zy/tool/virus.html",
+    "description": "功能类 · 实用工具",
+    "mark": "在"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "功能类",
+    "name": "临时邮箱",
+    "url": "https://zyscj.com/zy/tool/email.html",
+    "description": "功能类 · 实用工具",
+    "mark": "临"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "功能类",
+    "name": "短信接码",
+    "url": "https://zyscj.com/zy/tool/sms.html",
+    "description": "功能类 · 实用工具",
+    "mark": "短"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "功能类",
+    "name": "证件照换底色",
+    "url": "https://www.bgconverter.com/",
+    "description": "功能类 · 实用工具",
+    "mark": "证"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "功能类",
+    "name": "ouo tool",
+    "url": "https://ouotool.com/",
+    "description": "功能类 · 实用工具",
+    "mark": "O"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "功能类",
+    "name": "⛏地图资源下载",
+    "url": "https://zyscj.com/zy/tool/map.html",
+    "description": "功能类 · 实用工具",
+    "mark": "⛏"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "功能类",
+    "name": "IP位置查询",
+    "url": "https://www.ip138.com/",
+    "description": "功能类 · 实用工具",
+    "mark": "I"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "功能类",
+    "name": "电影台词搜索+拼接",
+    "url": "https://zyscj.com/zy/tool/actorline.html",
+    "description": "功能类 · 实用工具",
+    "mark": "电"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "图片编辑索引",
+    "url": "https://zyscj.com/zy/tool/imagetool/picedit.html",
+    "description": "图片工具 · 实用工具",
+    "mark": "图"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "表情包与GIF索引",
+    "url": "https://zyscj.com/zy/tool/imagetool/gif.html",
+    "description": "图片工具 · 实用工具",
+    "mark": "表"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "OCR文字识别",
+    "url": "https://zyscj.com/zy/tool/ocr.html",
+    "description": "图片工具 · 实用工具",
+    "mark": "O"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "免费图床站点",
+    "url": "https://zyscj.com/zy/tool/imagetool/picupload.html",
+    "description": "图片工具 · 实用工具",
+    "mark": "免"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "以图搜图(识图)",
+    "url": "https://zyscj.com/zy/tool/imagetool/imagesearch.html",
+    "description": "图片工具 · 实用工具",
+    "mark": "以"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "PS在线编辑+抠图",
+    "url": "https://zyscj.com/zy/tool/imagetool/PS.html",
+    "description": "图片工具 · 实用工具",
+    "mark": "P"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "图片压缩+软件",
+    "url": "https://zyscj.com/zy/tool/imagetool/piccompress.html",
+    "description": "图片工具 · 实用工具",
+    "mark": "图"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "词云制作",
+    "url": "https://zyscj.com/zy/tool/imagetool/wordcloud.html",
+    "description": "图片工具 · 实用工具",
+    "mark": "词"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "美图秀秀网页版",
+    "url": "http://xiuxiu.web.meitu.com/main.html",
+    "description": "图片工具 · 实用工具",
+    "mark": "美"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "创客贴",
+    "url": "https://www.chuangkit.com/",
+    "description": "图片工具 · 实用工具",
+    "mark": "创"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "草料二维码",
+    "url": "https://cli.im/",
+    "description": "图片工具 · 实用工具",
+    "mark": "草"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "Pixlr",
+    "url": "https://pixlr.com/",
+    "description": "图片工具 · 实用工具",
+    "mark": "P"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "网站favicon图标下载",
+    "url": "https://zyscj.com/zy/tool/imagetool/favicon.html",
+    "description": "图片工具 · 实用工具",
+    "mark": "网"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "稿定设计",
+    "url": "https://www.gaoding.com/",
+    "description": "图片工具 · 实用工具",
+    "mark": "稿"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "图帮主",
+    "url": "https://www.tubangzhu.com/",
+    "description": "图片工具 · 实用工具",
+    "mark": "图"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "sogif",
+    "url": "https://www.soogif.com/",
+    "description": "图片工具 · 实用工具",
+    "mark": "S"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "BIllfish素材管理工具",
+    "url": "https://www.billfish.cn/",
+    "description": "图片工具 · 实用工具",
+    "mark": "B"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "Fotor懒设计",
+    "url": "https://www.fotor.com.cn/",
+    "description": "图片工具 · 实用工具",
+    "mark": "F"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "绝赞设计软件",
+    "url": "https://github.com/LisaDziuba/Awesome-Design-Tools",
+    "description": "图片工具 · 实用工具",
+    "mark": "绝"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "recordit",
+    "url": "https://recordit.co/",
+    "description": "图片工具 · 实用工具",
+    "mark": "R"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "Licecap",
+    "url": "https://www.cockos.com/licecap",
+    "description": "图片工具 · 实用工具",
+    "mark": "L"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "GIF5",
+    "url": "http://www.gif5.net/",
+    "description": "图片工具 · 实用工具",
+    "mark": "G"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "GIF添加文字",
+    "url": "http://www.gifntext.com/",
+    "description": "图片工具 · 实用工具",
+    "mark": "G"
+  },
+  {
+    "category": "实用工具",
+    "subcategory": "图片工具",
+    "name": "Piskel",
+    "url": "https://www.piskelapp.com/",
+    "description": "图片工具 · 实用工具",
+    "mark": "P"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "考证考试资源",
+    "url": "https://zyscj.com/zy/study/certificate.html",
+    "description": "好好学习 · 学习教育",
+    "mark": "考"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "涨知识+科普",
+    "url": "https://zyscj.com/zy/study/knowledge.html",
+    "description": "好好学习 · 学习教育",
+    "mark": "涨"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "编程学习索引",
+    "url": "https://zyscj.com/zy/study/code.html",
+    "description": "好好学习 · 学习教育",
+    "mark": "编"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "英语学习相关",
+    "url": "https://zyscj.com/zy/study/english.html",
+    "description": "好好学习 · 学习教育",
+    "mark": "英"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "思维导图与写作输出",
+    "url": "https://zyscj.com/zy/study/mindmap.html",
+    "description": "好好学习 · 学习教育",
+    "mark": "思"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "在线课堂与刷课",
+    "url": "https://zyscj.com/zy/study/onlinecourse.html",
+    "description": "好好学习 · 学习教育",
+    "mark": "在"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "信息可视化",
+    "url": "https://zyscj.com/zy/study/chart.html",
+    "description": "好好学习 · 学习教育",
+    "mark": "信"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "网易云课堂",
+    "url": "https://study.163.com/",
+    "description": "好好学习 · 学习教育",
+    "mark": "网"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "中国大学MOOC",
+    "url": "https://www.icourse163.org/",
+    "description": "好好学习 · 学习教育",
+    "mark": "中"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "网易公开课",
+    "url": "https://open.163.com/",
+    "description": "好好学习 · 学习教育",
+    "mark": "网"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "电子课本下载",
+    "url": "https://zyscj.com/zy/study/textbook.html",
+    "description": "好好学习 · 学习教育",
+    "mark": "电"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "高考网",
+    "url": "http://www.gaokao.com/",
+    "description": "好好学习 · 学习教育",
+    "mark": "高"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "我要自学网",
+    "url": "https://www.51zxw.net/",
+    "description": "好好学习 · 学习教育",
+    "mark": "我"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "超星尔雅",
+    "url": "http://erya.mooc.chaoxing.com/",
+    "description": "好好学习 · 学习教育",
+    "mark": "超"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "Coursera",
+    "url": "https://www.coursera.org/",
+    "description": "好好学习 · 学习教育",
+    "mark": "C"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "EDX",
+    "url": "https://www.edx.org/",
+    "description": "好好学习 · 学习教育",
+    "mark": "E"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "爱课程",
+    "url": "http://www.icourses.cn/home",
+    "description": "好好学习 · 学习教育",
+    "mark": "爱"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "好好学习",
+    "name": "学堂在线",
+    "url": "https://next.xuetangx.com/",
+    "description": "好好学习 · 学习教育",
+    "mark": "学"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "论文下载与查重",
+    "url": "https://zyscj.com/zy/study/paper.html",
+    "description": "文档学术 · 学习教育",
+    "mark": "论"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "Sci-Hub",
+    "url": "http://tool.yovisun.com/scihub",
+    "description": "文档学术 · 学习教育",
+    "mark": "S"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "百度等文库免费下载",
+    "url": "https://zyscj.com/zy/study/wenku.html",
+    "description": "文档学术 · 学习教育",
+    "mark": "百"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "各种学习镜像站",
+    "url": "https://zyscj.com/zy/study/mirror.html",
+    "description": "文档学术 · 学习教育",
+    "mark": "各"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "大木虫学术导航",
+    "url": "http://www.4243.net/",
+    "description": "文档学术 · 学习教育",
+    "mark": "大"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "小鲸鱼文献",
+    "url": "http://www.9312.net/#",
+    "description": "文档学术 · 学习教育",
+    "mark": "小"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "网易UU学术资源加速",
+    "url": "https://baike.uu.163.com/scholar",
+    "description": "文档学术 · 学习教育",
+    "mark": "网"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "知网",
+    "url": "http://www.cnki.net/",
+    "description": "文档学术 · 学习教育",
+    "mark": "知"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "维普期刊",
+    "url": "http://lib.cqvip.com/",
+    "description": "文档学术 · 学习教育",
+    "mark": "维"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "浙江图书馆",
+    "url": "https://www.zjlib.cn/",
+    "description": "文档学术 · 学习教育",
+    "mark": "浙"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "南瓜学习网",
+    "url": "http://www.588230.com/",
+    "description": "文档学术 · 学习教育",
+    "mark": "南"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "PubScholar公益学术平台",
+    "url": "https://pubscholar.cn/",
+    "description": "文档学术 · 学习教育",
+    "mark": "P"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "晓木虫",
+    "url": "https://www.emuchong.com/",
+    "description": "文档学术 · 学习教育",
+    "mark": "晓"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "文档格式转换",
+    "url": "https://convertio.co/",
+    "description": "文档学术 · 学习教育",
+    "mark": "文"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "绍兴图书馆",
+    "url": "https://www.sxlib.com/",
+    "description": "文档学术 · 学习教育",
+    "mark": "绍"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "万方数据",
+    "url": "http://www.wanfangdata.com.cn/index.html",
+    "description": "文档学术 · 学习教育",
+    "mark": "万"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "oalib",
+    "url": "http://www.oalib.com/",
+    "description": "文档学术 · 学习教育",
+    "mark": "O"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "国家哲学社会科学文献中心",
+    "url": "http://www.ncpssd.org/",
+    "description": "文档学术 · 学习教育",
+    "mark": "国"
+  },
+  {
+    "category": "学习教育",
+    "subcategory": "文档学术",
+    "name": "百度学术",
+    "url": "http://xueshu.baidu.com/",
+    "description": "文档学术 · 学习教育",
+    "mark": "百"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "PPT",
+    "name": "PPT与简历制作",
+    "url": "https://zyscj.com/zy/office/ppt.html",
+    "description": "PPT · 办公素材",
+    "mark": "P"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "PPT",
+    "name": "效率提升工具",
+    "url": "https://zyscj.com/zy/soft/winefficiency.html",
+    "description": "PPT · 办公素材",
+    "mark": "效"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "PPT",
+    "name": "规范标准与CAD软件",
+    "url": "https://zyscj.com/zy/office/CAD-standard.html",
+    "description": "PPT · 办公素材",
+    "mark": "规"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "PPT",
+    "name": "视频编辑与音效",
+    "url": "https://zyscj.com/zy/office/video-audio.html",
+    "description": "PPT · 办公素材",
+    "mark": "视"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "PPT",
+    "name": "HiPPTER",
+    "url": "http://www.hippter.com/",
+    "description": "PPT · 办公素材",
+    "mark": "H"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "PPT",
+    "name": "OfficePLUS",
+    "url": "https://www.officeplus.cn/PPT/template",
+    "description": "PPT · 办公素材",
+    "mark": "O"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "PPT",
+    "name": "优品PPT",
+    "url": "http://www.ypppt.com/",
+    "description": "PPT · 办公素材",
+    "mark": "优"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "PPT",
+    "name": "锐普PPT",
+    "url": "https://www.rapidesign.cn/",
+    "description": "PPT · 办公素材",
+    "mark": "锐"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "PPT",
+    "name": "PPT之家",
+    "url": "https://www.52ppt.com/",
+    "description": "PPT · 办公素材",
+    "mark": "P"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "PPT",
+    "name": "51PPT",
+    "url": "http://www.51pptmoban.com/",
+    "description": "PPT · 办公素材",
+    "mark": "5"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "PPT",
+    "name": "pptfans",
+    "url": "https://www.pptfans.cn/",
+    "description": "PPT · 办公素材",
+    "mark": "P"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "PPT",
+    "name": "第一PPT",
+    "url": "http://www.1ppt.com/",
+    "description": "PPT · 办公素材",
+    "mark": "第"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "无版权图库+矢量素材",
+    "url": "https://zyscj.com/zy/office/picture.html",
+    "description": "图库 · 办公素材",
+    "mark": "无"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "png+纹理图案等素材",
+    "url": "https://zyscj.com/zy/office/png.html",
+    "description": "图库 · 办公素材",
+    "mark": "P"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "多搜搜",
+    "url": "http://duososo.com/",
+    "description": "图库 · 办公素材",
+    "mark": "多"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "Libre Stock",
+    "url": "https://librestock.com/",
+    "description": "图库 · 办公素材",
+    "mark": "L"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "Pixabay",
+    "url": "https://pixabay.com/",
+    "description": "图库 · 办公素材",
+    "mark": "P"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "搜图神器",
+    "url": "http://www.soutushenqi.com/home",
+    "description": "图库 · 办公素材",
+    "mark": "搜"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "Unsplash",
+    "url": "https://unsplash.com/",
+    "description": "图库 · 办公素材",
+    "mark": "U"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "Pexels",
+    "url": "https://www.pexels.com/",
+    "description": "图库 · 办公素材",
+    "mark": "P"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "Gratisography",
+    "url": "https://gratisography.com/",
+    "description": "图库 · 办公素材",
+    "mark": "G"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "泼辣有图",
+    "url": "http://www.polayoutu.com/collections",
+    "description": "图库 · 办公素材",
+    "mark": "泼"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "天空之城",
+    "url": "https://www.skypixel.com/",
+    "description": "图库 · 办公素材",
+    "mark": "天"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "PAKUTASO",
+    "url": "https://www.pakutaso.com/",
+    "description": "图库 · 办公素材",
+    "mark": "P"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "BURST",
+    "url": "https://burst.shopify.com/",
+    "description": "图库 · 办公素材",
+    "mark": "B"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "Subtle Patterns",
+    "url": "https://www.toptal.com/designers/subtlepatterns",
+    "description": "图库 · 办公素材",
+    "mark": "S"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "Foodiesfeed",
+    "url": "https://www.foodiesfeed.com/",
+    "description": "图库 · 办公素材",
+    "mark": "F"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "500px",
+    "url": "https://500px.com/",
+    "description": "图库 · 办公素材",
+    "mark": "5"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "Stickpng",
+    "url": "http://www.stickpng.com/",
+    "description": "图库 · 办公素材",
+    "mark": "S"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "Freepik",
+    "url": "https://www.freepik.com/",
+    "description": "图库 · 办公素材",
+    "mark": "F"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "Visualhunt",
+    "url": "https://visualhunt.com/",
+    "description": "图库 · 办公素材",
+    "mark": "V"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "Foter",
+    "url": "https://foter.com/",
+    "description": "图库 · 办公素材",
+    "mark": "F"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "搜图神器",
+    "url": "https://www.logosc.cn/so",
+    "description": "图库 · 办公素材",
+    "mark": "搜"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "PNGimg",
+    "url": "http://pngimg.com/",
+    "description": "图库 · 办公素材",
+    "mark": "P"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "lifeofpix【梯】",
+    "url": "https://www.lifeofpix.com/",
+    "description": "图库 · 办公素材",
+    "mark": "L"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图库",
+    "name": "Stocksnap",
+    "url": "https://stocksnap.io/",
+    "description": "图库 · 办公素材",
+    "mark": "S"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "壁纸与桌面美化",
+    "url": "https://zyscj.com/zy/office/wallpaper.html",
+    "description": "壁纸 · 办公素材",
+    "mark": "壁"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "二次元壁纸",
+    "url": "https://zyscj.com/zy/office/wallpaper.html#%E4%BA%8C%E6%AC%A1%E5%85%83%E5%A3%81%E7%BA%B8",
+    "description": "壁纸 · 办公素材",
+    "mark": "二"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "特色壁纸",
+    "url": "https://zyscj.com/zy/office/wallpaper.html#%E7%89%B9%E8%89%B2%E5%A3%81%E7%BA%B8",
+    "description": "壁纸 · 办公素材",
+    "mark": "特"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "【梯】Wallhaven",
+    "url": "https://wallhaven.cc/",
+    "description": "壁纸 · 办公素材",
+    "mark": "【"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "致美化",
+    "url": "https://zhutix.com/",
+    "description": "壁纸 · 办公素材",
+    "mark": "致"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "Wallhere",
+    "url": "https://wallhere.com/",
+    "description": "壁纸 · 办公素材",
+    "mark": "W"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "搜图神器",
+    "url": "http://www.soutushenqi.com/home",
+    "description": "壁纸 · 办公素材",
+    "mark": "搜"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "pixelz",
+    "url": "https://pixelz.cc/",
+    "description": "壁纸 · 办公素材",
+    "mark": "P"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "【梯】Wallroom",
+    "url": "https://wallroom.io/",
+    "description": "壁纸 · 办公素材",
+    "mark": "【"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "极简壁纸",
+    "url": "https://bz.zzzmh.cn/index",
+    "description": "壁纸 · 办公素材",
+    "mark": "极"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "彼岸桌面",
+    "url": "http://www.netbian.com/index.htm",
+    "description": "壁纸 · 办公素材",
+    "mark": "彼"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "Hdqwalls",
+    "url": "https://hdqwalls.com/",
+    "description": "壁纸 · 办公素材",
+    "mark": "H"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "Wallpaperscraft",
+    "url": "https://wallpaperscraft.com/",
+    "description": "壁纸 · 办公素材",
+    "mark": "W"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "Alphacoders",
+    "url": "https://wall.alphacoders.com/",
+    "description": "壁纸 · 办公素材",
+    "mark": "A"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "Wallpaperup",
+    "url": "https://www.wallpaperup.com/",
+    "description": "壁纸 · 办公素材",
+    "mark": "W"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "Wallls",
+    "url": "http://wallls.com/",
+    "description": "壁纸 · 办公素材",
+    "mark": "W"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "彼岸图网",
+    "url": "http://pic.netbian.com/",
+    "description": "壁纸 · 办公素材",
+    "mark": "彼"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "必应壁纸",
+    "url": "https://www.todaybing.com/",
+    "description": "壁纸 · 办公素材",
+    "mark": "必"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "壁纸",
+    "name": "美桌",
+    "url": "http://www.win4000.com/",
+    "description": "壁纸 · 办公素材",
+    "mark": "美"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图标",
+    "name": "图标logo资源索引",
+    "url": "https://zyscj.com/zy/office/icon.html",
+    "description": "图标 · 办公素材",
+    "mark": "图"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图标",
+    "name": "Iconfont",
+    "url": "https://www.iconfont.cn/",
+    "description": "图标 · 办公素材",
+    "mark": "I"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图标",
+    "name": "Flaticon",
+    "url": "https://www.flaticon.com/",
+    "description": "图标 · 办公素材",
+    "mark": "F"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图标",
+    "name": "iconfinder",
+    "url": "https://www.iconfinder.com/",
+    "description": "图标 · 办公素材",
+    "mark": "I"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图标",
+    "name": "YEELOGO",
+    "url": "http://yeelogo.com/#",
+    "description": "图标 · 办公素材",
+    "mark": "Y"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图标",
+    "name": "PornHub Logo制作",
+    "url": "https://www.logoly.pro/#",
+    "description": "图标 · 办公素材",
+    "mark": "P"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图标",
+    "name": "Thenounproject",
+    "url": "https://thenounproject.com/",
+    "description": "图标 · 办公素材",
+    "mark": "T"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图标",
+    "name": "icons8",
+    "url": "https://icons8.com/",
+    "description": "图标 · 办公素材",
+    "mark": "I"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "图标",
+    "name": "Easyicon",
+    "url": "https://www.easyicon.cc/",
+    "description": "图标 · 办公素材",
+    "mark": "E"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "字体",
+    "name": "字体素材资源",
+    "url": "https://zyscj.com/zy/office/font.html",
+    "description": "字体 · 办公素材",
+    "mark": "字"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "字体",
+    "name": "字由",
+    "url": "http://www.hellofont.cn/home",
+    "description": "字体 · 办公素材",
+    "mark": "字"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "字体",
+    "name": "求字体",
+    "url": "http://www.qiuziti.com/",
+    "description": "字体 · 办公素材",
+    "mark": "求"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "字体",
+    "name": "字体天下",
+    "url": "http://www.fonts.net.cn/",
+    "description": "字体 · 办公素材",
+    "mark": "字"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "字体",
+    "name": "100font",
+    "url": "https://www.100font.com/",
+    "description": "字体 · 办公素材",
+    "mark": "1"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "字体",
+    "name": "字如网",
+    "url": "https://fontru.com/",
+    "description": "字体 · 办公素材",
+    "mark": "字"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "字体",
+    "name": "猫啃网",
+    "url": "http://www.maoken.com/",
+    "description": "字体 · 办公素材",
+    "mark": "猫"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "字体",
+    "name": "找字网",
+    "url": "http://www.zhaozi.cn/",
+    "description": "字体 · 办公素材",
+    "mark": "找"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "字体",
+    "name": "DaFont",
+    "url": "https://www.dafont.com/",
+    "description": "字体 · 办公素材",
+    "mark": "D"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "配色",
+    "name": "配色方案资源索引",
+    "url": "https://zyscj.com/zy/office/color.html",
+    "description": "配色 · 办公素材",
+    "mark": "配"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "配色",
+    "name": "炫酷配色",
+    "url": "https://www.coocolors.com/",
+    "description": "配色 · 办公素材",
+    "mark": "炫"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "配色",
+    "name": "Picular",
+    "url": "https://picular.co/",
+    "description": "配色 · 办公素材",
+    "mark": "P"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "配色",
+    "name": "中国色",
+    "url": "http://zhongguose.com/",
+    "description": "配色 · 办公素材",
+    "mark": "中"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "配色",
+    "name": "Meshgradients",
+    "url": "https://www.ls.graphics/meshgradients",
+    "description": "配色 · 办公素材",
+    "mark": "M"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "配色",
+    "name": "Material Palette",
+    "url": "https://www.materialpalette.com/",
+    "description": "配色 · 办公素材",
+    "mark": "M"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "配色",
+    "name": "WebGradients",
+    "url": "https://webgradients.com/",
+    "description": "配色 · 办公素材",
+    "mark": "W"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "配色",
+    "name": "Colors",
+    "url": "https://coolors.co/",
+    "description": "配色 · 办公素材",
+    "mark": "C"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "配色",
+    "name": "Color Hunt",
+    "url": "https://colorhunt.co/",
+    "description": "配色 · 办公素材",
+    "mark": "C"
+  },
+  {
+    "category": "办公素材",
+    "subcategory": "配色",
+    "name": "Adobe Color",
+    "url": "https://color.adobe.com/zh/create",
+    "description": "配色 · 办公素材",
     "mark": "A"
   }
 ]
