@@ -4,6 +4,7 @@ import BaseHead from '@/components/BaseHead.astro'
 import Icon from '@/components/NavigationIcon.astro'
 import links from '@/public/navigation.json'
 import '@/assets/styles/navigation.css'
+import '@/assets/styles/glass.css'
 const groupIcons: Record<string, string> = { 我的收藏: 'star', 我的书签: 'book', 常用站点: 'grid', 视频直播: 'video', 资源搜索: 'search', 软件游戏: 'monitor', 阅读漫画: 'book', 音乐动听: 'music', 实用工具: 'tool', 学习教育: 'school', 办公素材: 'briefcase' }
 const groups = [...new Set(links.map(link => link.category))].map((name, index) => {
   const entries = links.filter(link => link.category === name)
@@ -25,15 +26,8 @@ const tone = (name: string) => ['blue', 'green', 'orange', 'purple', 'red'][[...
   </aside>
   <div class='portal-main'>
     <header class='portal-hero'>
-      <div class='starfield' aria-hidden='true'></div>
       <div class='portal-topbar'><div class='topbar-left'><button id='sidebar-toggle' class='icon-button' aria-label='展开或收起分类菜单' aria-controls='portal-sidebar' aria-expanded='false'><Icon name='menu' size={23} /></button><a href='/'><Icon name='home' size={18} /><span>博客首页</span></a><a href='/blog'><Icon name='book' size={18} /><span>我的文章</span></a></div><a class='topbar-about' href='/about'>一只兔子的网上漫游</a></div>
       <div class='hero-search-area'><p class='hero-kicker'>A LITTLE CORNER, A WIDER WORLD</p><h1>把好用的网站，放在一起<span>。</span></h1><div class='search-caption'><span>站内搜索</span><span>从收藏里，找到下一站</span></div><form class='portal-search' role='search'><label class='sr-only' for='portal-query'>搜索网站名称、网址或分类</label><input id='portal-query' type='search' placeholder='搜索网站名称、网址或分类…' autocomplete='off' /><button type='submit' aria-label='搜索网站'><Icon name='search' size={23} /></button></form><nav class='hero-shortcuts' aria-label='快速分类'>{shortcuts.map(group => <a href={'#' + group.id}>{group.name}</a>)}</nav></div>
-      <svg class='snow-mountains' viewBox='0 0 1600 120' preserveAspectRatio='none' aria-hidden='true'>
-        <path fill='#46515d' d='M0 60 25 37 53 63 87 54 122 69 170 36 204 49 260 23 300 58 338 45 370 70 414 30 450 59 483 39 525 72 562 50 609 66 647 32 689 52 727 40 762 68 805 29 848 61 891 43 930 67 969 34 1015 59 1050 42 1095 64 1142 35 1180 55 1227 23 1267 49 1306 37 1346 65 1390 41 1440 65 1480 39 1528 65 1570 47 1600 62V120H0Z'/>
-        <path fill='#91a4ae' d='m0 75 36-20 35 19 45-23 38 23 45-35 43 39 46-35 36 39 41-25 41 23 37-22 43 24 45-37 49 44 45-28 43 20 38-43 40 44 44-19 38 25 39-33 41 23 52-29 45 29 42-21 50 22 46-37 44 35 40-24 41 32 46-26 42 22 46-25 45 23 55-20 49 24 47-25 45 28 42-21 49 22V120H0Z'/>
-        <path fill='#c9dbe1' d='m0 87 28-9 24 12 36-21 33 20 48-20 31 27 51-33 37 28 49-23 42 21 41-10 39 15 37-19 44 14 42-16 46 22 40-30 38 27 40-17 45 17 49-12 41 20 46-35 41 30 39-20 45 24 43-18 49 15 41-29 43 27 46-14 43 25 44-15 45 15 46-17 47 15 43-16 50 17 42-12 45 16V120H0Z'/>
-        <path fill='#e9f3f5' d='m0 98 40-9 25 13 31-13 44 10 26-16 30 22 48-16 36 14 43-8 42 12 36-16 42 14 45-11 39 12 46-9 47 12 46-15 44 11 44-9 39 10 46-6 44 8 40-15 42 10 47-8 47 11 46-14 39 12 42-9 45 9 42-11 46 14 42-8 42 11 47-10 45 9 43-9 43 10 47-10 49 10V120H0Z'/>
-      </svg>
     </header>
     <main id='navigation-content' class='portal-content'>
       <div class='portal-toolbar'><div><span class='toolbar-pill'>我的导航</span><span class='directory-total'>{uniqueCount} 个站点 · {groups.length} 个分类</span></div><button id='clear-query' hidden>清空搜索 <Icon name='close' size={13} /></button></div>

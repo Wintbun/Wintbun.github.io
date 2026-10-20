@@ -1,0 +1,28 @@
+/* Shared glass surfaces for the notebook and directory. */
+:root {
+  --glass-surface: rgba(255, 255, 255, .64);
+  --glass-solid: #f7f9fd;
+  --glass-edge: rgba(255, 255, 255, .88);
+  --glass-line: rgba(80, 102, 141, .11);
+  --glass-shadow: 0 16px 50px rgba(47, 64, 104, .06), inset 0 1px 0 rgba(255, 255, 255, .8);
+  --glass-accent: #3265b0;
+  --glass-ink: #202c40;
+  --glass-muted: #66738b;
+  --glass-background: radial-gradient(ellipse at 4% 0%, #d7e8fa 0, transparent 48%), radial-gradient(ellipse at 93% 20%, #e7e0f5 0, transparent 44%), radial-gradient(ellipse at 50% 100%, #e2ecec 0, transparent 52%), #f1f4f9;
+}
+html.dark {
+  --glass-surface: rgba(27, 35, 53, .78);
+  --glass-solid: #1c2639;
+  --glass-edge: rgba(190, 207, 245, .12);
+  --glass-line: rgba(190, 207, 245, .12);
+  --glass-shadow: 0 16px 50px rgba(0, 0, 0, .14), inset 0 1px 0 rgba(255, 255, 255, .04);
+  --glass-accent: #9ec7ff;
+  --glass-ink: #e9eef8;
+  --glass-muted: #a4b2cb;
+  --glass-background: radial-gradient(ellipse at 4% 0%, #1b324f 0, transparent 48%), radial-gradient(ellipse at 93% 20%, #2b2343 0, transparent 44%), #111a29;
+}
+body { background: var(--glass-background); background-attachment: fixed; }
+@supports not (backdrop-filter: blur(1px)) {
+  :root { --glass-surface: #f7f9fd; }
+  html.dark { --glass-surface: #1c2639; }
+}
