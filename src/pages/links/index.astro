@@ -4,7 +4,7 @@ import BaseHead from '@/components/BaseHead.astro'
 import Icon from '@/components/NavigationIcon.astro'
 import links from '@/public/navigation.json'
 import '@/assets/styles/navigation.css'
-const groupIcons: Record<string, string> = { 我的收藏: 'star', 常用站点: 'grid', 视频直播: 'video', 资源搜索: 'search', 软件游戏: 'monitor', 阅读漫画: 'book', 音乐动听: 'music', 实用工具: 'tool', 学习教育: 'school', 办公素材: 'briefcase' }
+const groupIcons: Record<string, string> = { 我的收藏: 'star', 我的书签: 'book', 常用站点: 'grid', 视频直播: 'video', 资源搜索: 'search', 软件游戏: 'monitor', 阅读漫画: 'book', 音乐动听: 'music', 实用工具: 'tool', 学习教育: 'school', 办公素材: 'briefcase' }
 const groups = [...new Set(links.map(link => link.category))].map((name, index) => {
   const entries = links.filter(link => link.category === name)
   return { name, id: 'nav-group-' + index, icon: groupIcons[name] || 'grid', entries, tabs: [...new Set(entries.map(link => link.subcategory))] }
@@ -43,7 +43,7 @@ const tone = (name: string) => ['blue', 'green', 'orange', 'purple', 'red'][[...
         <div class='portal-grid'>{group.entries.map(link => <a class='portal-entry' href={link.url} target='_blank' rel='noopener noreferrer' title={link.name + ' · ' + link.url} data-category={group.name} data-subcategory={link.subcategory} data-search={[link.name, link.url, link.category, link.subcategory, link.description].join(' ').toLowerCase()} hidden={link.subcategory !== group.tabs[0]}><span class:list={['entry-icon', tone(link.name)]}><span aria-hidden='true'>{link.mark}</span><img src={'https://icons.duckduckgo.com/ip3/' + new URL(link.url).hostname + '.ico'} width='25' height='25' alt='' loading='lazy' decoding='async' referrerpolicy='no-referrer' /></span><span class='entry-text'><strong>{link.name}</strong><small class='entry-subcategory'>{link.subcategory}</small></span><span class='entry-arrow'><Icon name='chevron' size={11} /></span></a>)}</div>
       </section>)}
       <div id='empty-results' class='empty-results' hidden><Icon name='search' size={32} /><h2>没有找到这个网站</h2><p>试试更短的名称，或换一个分类关键词。</p></div>
-      <footer class='portal-footer'><p>© 2026 不会游泳的兔子 · 让每次打开，都有一个好去处。</p><p>导航整理自 <a href='https://adzhp.cc/' target='_blank' rel='noopener noreferrer'>爱达杂货铺</a>，保留原有收藏，已过滤识别出的推广内容。<a href='/blog'>去读文章 ↗</a></p></footer>
+      <footer class='portal-footer'><p>© 2026 不会游泳的兔子 · 让每次打开，都有一个好去处。</p><p>部分导航整理自 <a href='https://adzhp.cc/' target='_blank' rel='noopener noreferrer'>爱达杂货铺</a>，保留原有收藏并导入个人书签，已过滤识别出的推广内容。<a href='/blog'>去读文章 ↗</a></p></footer>
     </main>
   </div>
   <div class='portal-floating'><button id='back-to-top' aria-label='返回顶部'><Icon name='up' size={19} /></button><button id='portal-theme' aria-label='切换深浅色外观'><Icon name='moon' size={17} /></button></div>

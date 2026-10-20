@@ -72,6 +72,1318 @@
     "subcategory": "设计与灵感"
   },
   {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "RGB颜色值与十六进制颜色码转换工具",
+    "url": "https://www.sioe.cn/yingyong/yanse-rgb-16/",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "R"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "图片压缩",
+    "url": "https://tinypng.com/",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "图"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "Leaflet - 一个交互式地图 JavaScript 库",
+    "url": "https://leafletjs.cn/reference.html#map-example",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "L"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "PPChart - 让图表更简单",
+    "url": "http://ppchart.com/#/",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "P"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "Ant Design of Vue - Ant Design Vue",
+    "url": "https://1x.antdv.com/docs/vue/introduce-cn/",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "A"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "首页 - ECharts Demo集,echarts gallery社区,Make A Pie,分享你的可视化作品isqqw.com",
+    "url": "https://www.isqqw.com/",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "首"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "Button 按钮 | Element Plus",
+    "url": "https://element-plus.gitee.io/zh-CN/component/button.html",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "B"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "RAP接口管理平台",
+    "url": "http://rap2.taobao.org/repository/joined",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "R"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "分享你我 - ECharts 作品集",
+    "url": "http://chart.majh.top/",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "分"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "JOJO",
+    "url": "https://app.syrme.top/",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "J"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "Vant 4 - 轻量、可定制的移动端组件库",
+    "url": "https://vant-contrib.gitee.io/vant/#/zh-CN",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "V"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "数据表格 Data Table - Naive UI",
+    "url": "https://www.naiveui.com/zh-CN/os-theme/components/data-table#custom-style.vue",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "数"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "GitHub - assimon/dujiaoka: 🦄独角数卡(自动售货系统)-开源站长自动化售货解决方案、高效、稳定、快速！🚀🚀🎉🎉",
+    "url": "https://github.com/assimon/dujiaoka",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "G"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "Leaflet - 一个交互式地图 JavaScript 库",
+    "url": "https://leafletjs.cn/",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "L"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "CSSFX - 精美简单的点击复制 CSS 效果",
+    "url": "https://cssfx.lovejade.cn/",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "C"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "SpinKit | Simple CSS Spinners",
+    "url": "https://tobiasahlin.com/spinkit/",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "S"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "Vue.js 挑战 | 一个 Vue.js 在线挑战平台",
+    "url": "https://cn-vuejs-challenges.netlify.app/",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "V"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "WEB前端大师课",
+    "url": "https://fe.duyiedu.com/p/t_pc/course_pc_detail/camp_pro/course_2VKbErGXkTSzvbl9aQ9HgndEtIz",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "W"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "富奥竞争情报系统",
+    "url": "https://cis.fawer.com.cn/#/login",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "富"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "VueDraggablePlus | 支持 Vue2 和 Vue3 的拖拽组件",
+    "url": "https://alfred-skyblue.github.io/vue-draggable-plus/",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "V"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "中国汽车工业信息网",
+    "url": "https://www.autoinfo.org.cn/#/",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "中"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "GitHub - yangzongzhuan/RuoYi-Vue3: :tada: (RuoYi)官方仓库 基于SpringBoot，Spring Security，JWT，Vue3 & Vite、Element Plus 的前后端分离权限管理系统",
+    "url": "https://github.com/yangzongzhuan/RuoYi-Vue3",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "G"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "GitHub - yangzongzhuan/RuoYi-Vue-fast: :tada: (RuoYi)官方仓库 基于SpringBoot，Spring Security，JWT，Vue & Element 的前后端分离权限管理系统",
+    "url": "https://github.com/yangzongzhuan/RuoYi-Vue-fast?tab=readme-ov-file",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "G"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "Button 按钮 | Element Plus",
+    "url": "https://element-plus.org/zh-CN/component/button.html",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "B"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "信息网精简lite版本-产品设计方案【初版】 - 飞书云文档",
+    "url": "https://g16z3tsdv4.feishu.cn/docx/XpJBdacTFoHuh6xY6wrcFflqnpc?302from=wiki",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "信"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "Apipost-基于协作, 不止于API文档、调试、Mock、自动化测试",
+    "url": "https://console-docs.apipost.cn/preview/202dc9e1620dd724/52a56a42046176a0?target_id=a8485578-4961-4a5d-bc3e-92252331c71c",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "A"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "登录信息网管理系统",
+    "url": "https://bms.autoinfo.org.cn/autoinfo/login",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "登"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "Lite",
+    "url": "http://123.249.98.254:8099/#/index",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "L"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "对外贸易飞线图 - ECharts图表集,echarts gallery社区,Make A Pie,分享你的可视化作品isqqw.com",
+    "url": "https://www.isqqw.com/viewer?id=15370",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "对"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "组件 | Element",
+    "url": "https://element.eleme.io/#/zh-CN/component/installation",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "组"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "技术博客阅读器 - 专业开发者阅读工具 | 知识管理平台",
+    "url": "https://www.duanwuqiufenmao.top/?code=REF9946_351a03c5",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "技"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "前端工具",
+    "name": "Xiaomi MiMo 开放平台",
+    "url": "https://platform.xiaomimimo.com/#/console/plan-manage",
+    "description": "前端工具 · 浏览器书签",
+    "mark": "X"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "WP Admin 2020 - WordPress简洁后台美化插件，美化你的仪表盘后台-北忘山博客",
+    "url": "https://www.beiwangshan.com/1154.html",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "W"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "LIBVIO影视 - 超清在线视频站",
+    "url": "https://libvio.top/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "L"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "爱达杂货铺 | 收集那些有用的东西|爱达导航",
+    "url": "https://adzhp.net/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "爱"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "国内外短信接码平台合集码",
+    "url": "https://blog.csdn.net/m0_65132042/article/details/122061411",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "国"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "SMS-Activate是在线接受短信的虚拟号码服务",
+    "url": "https://sms-activate.org/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "S"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "爱达杂货铺回家地址页",
+    "url": "https://adzhp.vip/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "爱"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "太极",
+    "url": "https://taichi.cool/zh/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "太"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "Win11主题 - Win11电脑主题 - Win11桌面主题 - 致美化",
+    "url": "https://zhutix.com/tag/win11-zhuti/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "W"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "XYZ",
+    "url": "https://9.234456.xyz/abc.html?t=1643420231362",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "X"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "RuTracker.org",
+    "url": "https://rutracker.net/forum/index.php?c=10",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "R"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "360安全卫士独立小工具集合（珍藏 全面 安全 精巧 ） - 『精品软件区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn",
+    "url": "https://www.52pojie.cn/thread-1068454-1-1.html",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "3"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "摸鱼导航-摸鱼人的专属导航 （ 原：摸鱼.干不死）",
+    "url": "https://moyu.games/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "摸"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "夸克网盘吧-分享夸克网盘资源的网站!Kuakeba.top",
+    "url": "https://www.kuakeba.top/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "夸"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "rarbt|专注于4K蓝光(BluRay)原盘电影_超清2160p美剧_高清1080p韩剧、3D日漫、杜比视界等迅雷BT种子磁力链免费下载！",
+    "url": "https://www.rarbt.fun/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "R"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "TikTok去水印下载工具 - 免费在线TikTok downloader | KuKuTool",
+    "url": "http://dy.kukutool.com/tiktok-downloader",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "T"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "观看为你推荐热门视频 | TikTok",
+    "url": "https://www.tiktok.com/foryou?lang=zh-Hans",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "观"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "抖音创作者中心",
+    "url": "https://creator.douyin.com/creator-micro/content/upload",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "抖"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "Kimi API 开放平台",
+    "url": "https://platform.moonshot.cn/console/account",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "K"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "Yandex — fast Internet search",
+    "url": "https://yandex.com/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "Y"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "The Agent Skills Directory",
+    "url": "https://skills.sh/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "T"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "机地 - 聚焦PC游戏免费下载",
+    "url": "https://jidi520.com/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "机"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "淘金教父｜海社长谈项目_轻资产创业与副业实战个人博客",
+    "url": "https://www.taojinjiaofu.com/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "淘"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "所有游戏 - 浏览器中免费玩 - 低端游戏",
+    "url": "https://ddyx.me/GameList#!",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "所"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "高清电影_电视剧--_最新美剧韩剧追剧网 - 爱看影视",
+    "url": "https://akyse.cc/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "高"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "免费项目网",
+    "url": "https://blog.951u.cn/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "免"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "青桔网-由青桔移植组建立的非盈利型galgame免费分享平台",
+    "url": "https://www.qingju.org/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "青"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "V2EX",
+    "url": "https://www.v2ex.com/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "V"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "LINUX DO - 新的理想型社区",
+    "url": "https://linux.do/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "L"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "小黑盒 - 高能玩家聚集地",
+    "url": "https://www.xiaoheihe.cn/home",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "小"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "实用工具",
+    "name": "橘子资源网 - 永久免费的资源聚合宝库",
+    "url": "https://www.juzia.cn/",
+    "description": "实用工具 · 浏览器书签",
+    "mark": "橘"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "海绵影视",
+    "url": "https://nl.yuque.tk/",
+    "description": "搜索 · 浏览器书签",
+    "mark": "海"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "没用的研究所 - 分享有用的互联网资源！",
+    "url": "https://www.mydyjs.com/",
+    "description": "搜索 · 浏览器书签",
+    "mark": "没"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "知乎 - 知乎",
+    "url": "https://www.zhihu.com/knowledge-plan/hot-question/hot/0/day",
+    "description": "搜索 · 浏览器书签",
+    "mark": "知"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "云盘资源分享社区-提供阿里云盘资源、影视资源、学习资源、软件资源、动漫资源、游戏资源等分享。",
+    "url": "https://yunpan1.com/",
+    "description": "搜索 · 浏览器书签",
+    "mark": "云"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "在线云文件查看器",
+    "url": "https://www.fviewer.com/zh",
+    "description": "搜索 · 浏览器书签",
+    "mark": "在"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "Ai泡泡-小北视界",
+    "url": "http://chat.xiaobei.ink/#/chat/1002",
+    "description": "搜索 · 浏览器书签",
+    "mark": "A"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "1元GPT8元奈飞",
+    "url": "https://www.sgkpx.com/user",
+    "description": "搜索 · 浏览器书签",
+    "mark": "1"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "一元机场",
+    "url": "https://xn--4gq62f52gdss.com/#/dashboard",
+    "description": "搜索 · 浏览器书签",
+    "mark": "一"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "首页",
+    "url": "https://8800k.cn/#/",
+    "description": "搜索 · 浏览器书签",
+    "mark": "首"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "金蝶认证题目总结_金蝶云苍穹初级认证_探长大神的博客-CSDN博客",
+    "url": "https://blog.csdn.net/weixin_41524017/article/details/126263186",
+    "description": "搜索 · 浏览器书签",
+    "mark": "金"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "可乐影视-最全面最优质的影视导航、影视搜索网站",
+    "url": "https://klyingshi.com/",
+    "description": "搜索 · 浏览器书签",
+    "mark": "可"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "帮小忙，腾讯QQ浏览器在线工具箱平台",
+    "url": "https://tool.browser.qq.com/",
+    "description": "搜索 · 浏览器书签",
+    "mark": "帮"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "switch游戏下载_switch520游戏网",
+    "url": "https://www.switch520.org/switch",
+    "description": "搜索 · 浏览器书签",
+    "mark": "S"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "ChatGPT",
+    "url": "https://freegpt.one/",
+    "description": "搜索 · 浏览器书签",
+    "mark": "C"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "BAI Chat",
+    "url": "https://chat.theb.ai/#/chat/1678528960033",
+    "description": "搜索 · 浏览器书签",
+    "mark": "B"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "Forefront Chat",
+    "url": "https://chat.forefront.ai/",
+    "description": "搜索 · 浏览器书签",
+    "mark": "F"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "谛听提示词",
+    "url": "https://dittin.com/#/promptbase",
+    "description": "搜索 · 浏览器书签",
+    "mark": "谛"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "樱花动漫",
+    "url": "https://www.yinhuadm.cc/",
+    "description": "搜索 · 浏览器书签",
+    "mark": "樱"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "樱花动漫",
+    "url": "https://www.yinhuadm.one/",
+    "description": "搜索 · 浏览器书签",
+    "mark": "樱"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "经典版式设计,包装设计,字体设计欣赏,实用设计软件,CDR/AI/PS/PDF设计插件、教程免费下载,在线书法字体生成_亿品元素",
+    "url": "https://www.epinv.com/",
+    "description": "搜索 · 浏览器书签",
+    "mark": "经"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "熊GRAM最新发布页界面-防丢失，真永久",
+    "url": "https://sway.cloud.microsoft/GJDEsFWmIgE40Zsh",
+    "description": "搜索 · 浏览器书签",
+    "mark": "熊"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "盐选书阁",
+    "url": "https://www.yanlib.top/",
+    "description": "搜索 · 浏览器书签",
+    "mark": "盐"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "游戏更新库",
+    "url": "https://www.gxkgame.com/home",
+    "description": "搜索 · 浏览器书签",
+    "mark": "游"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "搜索",
+    "name": "网飞猫_最新Netflix新剧_韩国电影免费在线观看",
+    "url": "https://www.ncat22.com/",
+    "description": "搜索 · 浏览器书签",
+    "mark": "网"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "Airyland",
+    "url": "https://bento.me/airyland",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "A"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "MinisterAI - Free online AI Art Generator | Stable Diffusion",
+    "url": "https://mst.ai/home",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "M"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "AI工具箱 | AI工具箱,ChatGPT大全,AI工具导航",
+    "url": "https://www.sanls.com/",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "A"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "AI指南官网 | AI导航,AI软件,AI工具,AI工具大全 - 全网最有用的 AI 导航",
+    "url": "https://www.aizhinan.cn/",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "A"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "智联AI",
+    "url": "https://zhiloc.com/gpt4.php",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "智"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "一元机场",
+    "url": "https://xn--1-q07a56pdss.com/#/dashboard",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "一"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "可灵 AI - 新一代 AI 创意生产力平台",
+    "url": "https://klingai.kuaishou.com/",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "可"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "Google Gemini",
+    "url": "https://gemini.google.com/app",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "G"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "帕克云",
+    "url": "https://js.parkcloud.cc/dashboard",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "帕"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "Grok 中文网｜Grok 国内使用指南与中文版入口（2026最新） | Grok 中文网",
+    "url": "https://www.grok-china.com/",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "G"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "Grok — xAI 最强大的 AI 平台 | Aurora 图片 & Grok Imagine 视频",
+    "url": "https://app.grok4.app/zh",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "G"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "首页 | 桔子小铺",
+    "url": "https://juzixp.com/",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "首"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com/",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "C"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "GPT Image 2 提示词大全 | AI 图片生成 Prompt 模板与案例 2026 | EvoLink",
+    "url": "https://evolink.ai/zh/gpt-image-2-prompts",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "G"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "部署 GPU - 仙宫云 Xiangongyun.com",
+    "url": "https://www.xiangongyun.com/deploy",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "部"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "hellotik.app/zh/douyin",
+    "url": "https://www.hellotik.app/zh/douyin",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "H"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "PaywallBuster - 付费墙专区克星|免费绕过新闻付费墙中文官网入口",
+    "url": "https://paywallbuster.wwwnav.com/",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "P"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "青蛙AI·低价源头的小店 - 链动小铺",
+    "url": "https://pay.ldxp.cn/shop/qingwaAA",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "青"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "奈飞工厂-一个致力于免费提供Netflix影剧动漫的流媒体播放平台–奈飞工厂 NetflixGC | NetflixGC.com",
+    "url": "https://www.netflixgc.org/",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "奈"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "(1) CocoLoop AI社区 - AI智能体技术社区",
+    "url": "https://www.cocoloop.cn/",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "("
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "网飞猫_最新Netflix新剧_韩国电影免费在线观看",
+    "url": "https://103.194.185.51:51122/",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "网"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "第799章 孔雀_玄鉴仙族_科幻小说_82中文网",
+    "url": "https://www.82zg.com/book/82371/69398006.html",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "第"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "AI、GPT",
+    "name": "三角洲卡战备V4_鼠鼠卡战备V4_凑战备V4_实时更新_三角洲小涛查-三角洲数据帝-三角洲行动鼠鼠工具-三角洲攻略站|冰尘网_Orzice",
+    "url": "https://orzice.com/v/zb_ssV4",
+    "description": "AI、GPT · 浏览器书签",
+    "mark": "三"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "素材",
+    "name": "免费素材图片",
+    "url": "https://www.pexels.com/zh-cn/",
+    "description": "素材 · 浏览器书签",
+    "mark": "免"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "素材",
+    "name": "小森平的免费下载音效",
+    "url": "https://taira-komori.jpn.org/freesoundcn.html",
+    "description": "素材 · 浏览器书签",
+    "mark": "小"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "素材",
+    "name": "Fish Speech - 免费专业AI配音与声音克隆平台 | Fish Speech - Free & Professional Text to Speech & Audio Solution",
+    "url": "https://fishspeech.net/zh",
+    "description": "素材 · 浏览器书签",
+    "mark": "F"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "素材",
+    "name": "刘哈哈的资源站 - 一站式服务中心",
+    "url": "https://hongqi.xn--fiqs8s/",
+    "description": "素材 · 浏览器书签",
+    "mark": "刘"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "素材",
+    "name": "无水印视频下载器_免费视频下载工具_哔哩哔哩(b站)视频解析下载 - 下载狗工具",
+    "url": "https://www.xiazaitool.com/",
+    "description": "素材 · 浏览器书签",
+    "mark": "无"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "素材",
+    "name": "免费视频下载_哔哩哔哩B站视频下载_抖音无水印视频下载_YouTube油管视频下载-GreenVideo视频下载",
+    "url": "https://greenvideo.cc/",
+    "description": "素材 · 浏览器书签",
+    "mark": "免"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "素材",
+    "name": "文抑青年AI开源整合包 - 飞书云文档",
+    "url": "https://exmzfs7zve.feishu.cn/docx/FuPxdArRaofVMWxke2tc8IO9nCh",
+    "description": "素材 · 浏览器书签",
+    "mark": "文"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "素材",
+    "name": "噪音人工智能",
+    "url": "https://noiz.ai/tts/creation",
+    "description": "素材 · 浏览器书签",
+    "mark": "噪"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "素材",
+    "name": "介绍 | uview-plus - 全面兼容nvue/鸿蒙/uni-app-x的uni-app生态框架 - uni-app UI框架",
+    "url": "https://uview-plus.jiangruyi.com/components/intro.html",
+    "description": "素材 · 浏览器书签",
+    "mark": "介"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "素材",
+    "name": "ThorUI组件库 | ThorUI源码 | ThorUI文档",
+    "url": "https://thorui.cn/",
+    "description": "素材 · 浏览器书签",
+    "mark": "T"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "素材",
+    "name": "4295 UI elements: CSS & Tailwind",
+    "url": "https://uiverse.io/elements",
+    "description": "素材 · 浏览器书签",
+    "mark": "4"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "素材",
+    "name": "iloveusa - 免费海外接码平台 | 美国/加拿大/英国/澳洲手机号在线接收验证码",
+    "url": "https://www.iloveusa.cc/zh-CN",
+    "description": "素材 · 浏览器书签",
+    "mark": "I"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "素材",
+    "name": "免费正版高清视频素材库 数千部优质视频素材可供免费使用和下载 - Pixabay",
+    "url": "https://pixabay.com/zh/videos/",
+    "description": "素材 · 浏览器书签",
+    "mark": "免"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "素材",
+    "name": "在线 Markdown 查看器 - 在浏览器中预览 .md 文件",
+    "url": "https://anythingmd.com/zh/tools/markdown-viewer",
+    "description": "素材 · 浏览器书签",
+    "mark": "在"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "铸源",
+    "name": "Redmine",
+    "url": "http://47.98.198.3:8081/",
+    "description": "铸源 · 浏览器书签",
+    "mark": "R"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "铸源",
+    "name": "优品",
+    "url": "https://app.apifox.com/project/6182493",
+    "description": "铸源 · 浏览器书签",
+    "mark": "优"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "铸源",
+    "name": "接口变更说明文档",
+    "url": "https://docs.qq.com/sheet/DZGVmT0RsaFdjemRk?tab=BB08J2",
+    "description": "铸源 · 浏览器书签",
+    "mark": "接"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "铸源",
+    "name": "天津铸源健康科技集团有限公司 - 天津铸源健康科技集团有限公司",
+    "url": "https://gitee.com/tianjin-zhuyuan-health-group",
+    "description": "铸源 · 浏览器书签",
+    "mark": "天"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "铸源",
+    "name": "优化需求汇总单",
+    "url": "https://www.kdocs.cn/l/cdln5akHbbIl",
+    "description": "铸源 · 浏览器书签",
+    "mark": "优"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "铸源",
+    "name": "企业工作台 - 天津铸源健康科技集团有限公司",
+    "url": "https://e.gitee.com/tianjin-zhuyuan-health-group/dashboard",
+    "description": "铸源 · 浏览器书签",
+    "mark": "企"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "铸源",
+    "name": "铸源oa办公系统",
+    "url": "https://oa.tropjoin.com/home/login/index.html",
+    "description": "铸源 · 浏览器书签",
+    "mark": "铸"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "铸源",
+    "name": "需求清单-模块分类",
+    "url": "https://www.kdocs.cn/l/cnpdCTGBcDxk",
+    "description": "铸源 · 浏览器书签",
+    "mark": "需"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "docsmall - 免费的在线图片、PDF处理工具",
+    "url": "https://docsmall.com/",
+    "description": "工具 · 浏览器书签",
+    "mark": "D"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "2925邮箱-无限邮",
+    "url": "https://www.2925.com/#/",
+    "description": "工具 · 浏览器书签",
+    "mark": "2"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "我的资料管理-uv-ui 是全面兼容vue3+2、nvue、app、h5、小程序等多端的uni-app生态框架",
+    "url": "https://www.uvui.cn/",
+    "description": "工具 · 浏览器书签",
+    "mark": "我"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "DCloud 插件市场",
+    "url": "https://ext.dcloud.net.cn/search?q=uv-number-box",
+    "description": "工具 · 浏览器书签",
+    "mark": "D"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "TinyPNG – 智能压缩您的WebP、JPEG和PNG图片",
+    "url": "https://tinify.cn/",
+    "description": "工具 · 浏览器书签",
+    "mark": "T"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "DCloud 插件市场",
+    "url": "https://ext.dcloud.net.cn/",
+    "description": "工具 · 浏览器书签",
+    "mark": "D"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "首页 - MXNZP.COM 穆仙念，人到中年，个人学习记录",
+    "url": "https://www.mxnzp.com/",
+    "description": "工具 · 浏览器书签",
+    "mark": "首"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "拾壹博客: 一款vue+springboot前后端分离的博客系统，博客后台管理系统使用了vue+elmentui开发，后端使用Sa-Token进行权限管理,支持动态菜单权限，动态定时任务，文件支持本地和七牛云上传，使用ElasticSearch作为全文检索服务，支持QQ、微信公众号扫码、码云、GitHub登录。实现即时通讯聊天室功能",
+    "url": "https://gitee.com/quequnlong/shiyi-blog#https://gitee.com/link?target=http%3A%2F%2Fwww.shiyit.com",
+    "description": "工具 · 浏览器书签",
+    "mark": "拾"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "免费4K高清壁纸-电脑背景图片-Mac壁纸网站「哲风壁纸」",
+    "url": "https://haowallpaper.com/",
+    "description": "工具 · 浏览器书签",
+    "mark": "免"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "快捷导航 - 一站式工具导航，打工人必备神器！",
+    "url": "https://www.kjdaohang.com/",
+    "description": "工具 · 浏览器书签",
+    "mark": "快"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "盘点《wallpaper engine》中那些超高评价的壁纸",
+    "url": "https://www.msn.cn/zh-cn/news/other/%E7%9B%98%E7%82%B9-wallpaper-engine-%E4%B8%AD%E9%82%A3%E4%BA%9B%E8%B6%85%E9%AB%98%E8%AF%84%E4%BB%B7%E7%9A%84%E5%A3%81%E7%BA%B8/ar-AA1sPY6S",
+    "description": "工具 · 浏览器书签",
+    "mark": "盘"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "用户脚本",
+    "url": "https://greasyfork.org/zh-CN/scripts",
+    "description": "工具 · 浏览器书签",
+    "mark": "用"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "仓库 - 浪矢先生 (langshixiansheng) - Gitee.com",
+    "url": "https://gitee.com/langshixiansheng/projects",
+    "description": "工具 · 浏览器书签",
+    "mark": "仓"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "颜色转换：RGB、HSL、CMYK 转换工具 | 开发者工具箱",
+    "url": "https://devtool.tech/color",
+    "description": "工具 · 浏览器书签",
+    "mark": "颜"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "安卓软件-绿软小站",
+    "url": "https://www.gndown.com/category/anzhuoruanjian",
+    "description": "工具 · 浏览器书签",
+    "mark": "安"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "不死鸟 - 分享为王官网",
+    "url": "https://iui.su/",
+    "description": "工具 · 浏览器书签",
+    "mark": "不"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "免费API|快速稳定的免费API调用平台 - 小小API",
+    "url": "https://xxapi.cn/",
+    "description": "工具 · 浏览器书签",
+    "mark": "免"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "汇总全网免费API，持续更新（新闻api、每日一言api、音乐。。。）_api免费接口网-CSDN博客",
+    "url": "https://blog.csdn.net/weixin_50367873/article/details/136735523",
+    "description": "工具 · 浏览器书签",
+    "mark": "汇"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "工业信息网-蓝湖",
+    "url": "https://lanhuapp.com/web/#/item/project/stage?pid=16748347-1f14-4de6-9473-8e7cedd37eba&image_id=a5584e15-2b7f-4f73-8297-77d100e64d88&tid=c16a91f1-971a-45c9-aef2-ae9e4b80103f",
+    "description": "工具 · 浏览器书签",
+    "mark": "工"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "宝贝云",
+    "url": "https://bby010.com/?tm=1756345799449#/dashboard",
+    "description": "工具 · 浏览器书签",
+    "mark": "宝"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "Docs",
+    "url": "https://qcn5ij9yksb7.feishu.cn/wiki/KPc6wQmESi84N3kCXkicUgERnVh",
+    "description": "工具 · 浏览器书签",
+    "mark": "D"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "首页 — iKuuu VPN",
+    "url": "https://ikuuu.de/user",
+    "description": "工具 · 浏览器书签",
+    "mark": "首"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "Windsurf Infinity 使用教程 - 飞书云文档",
+    "url": "https://dvwjkqzbz6.feishu.cn/wiki/JyxFwRxexiKgfykPC47c2Lp7nGh",
+    "description": "工具 · 浏览器书签",
+    "mark": "W"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "WARFRAME",
+    "url": "https://warframe.huijiwiki.com/wiki/Mainpage",
+    "description": "工具 · 浏览器书签",
+    "mark": "W"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "穿山甲",
+    "url": "https://aff01.csj2025.com/#/dashboard",
+    "description": "工具 · 浏览器书签",
+    "mark": "穿"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "Google AI Studio",
+    "url": "https://aistudio.google.com/",
+    "description": "工具 · 浏览器书签",
+    "mark": "G"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "工具",
+    "name": "手把手教你把Gemini3生成的项目简单部署上线-CSDN博客",
+    "url": "https://blog.csdn.net/2401_85373898/article/details/155384012?ops_request_misc=elastic_search_misc&request_id=a7d6b82ef5c2b07da5036507dc4c28bf&biz_id=0",
+    "description": "工具 · 浏览器书签",
+    "mark": "手"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "未分类",
+    "name": "百度翻译_领先的AI大模型翻译_支持文本/文档/图片翻译",
+    "url": "https://fanyi.baidu.com/mtpe-individual/multimodal#/",
+    "description": "未分类 · 浏览器书签",
+    "mark": "百"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "未分类",
+    "name": "工作台 - Gitee.com",
+    "url": "https://gitee.com/",
+    "description": "未分类 · 浏览器书签",
+    "mark": "工"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "未分类",
+    "name": "首页",
+    "url": "https://store.tropjoin.com/pages/index/index",
+    "description": "未分类 · 浏览器书签",
+    "mark": "首"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "未分类",
+    "name": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+    "url": "https://www.bilibili.com/?spm_id_from=333.6.0.0",
+    "description": "未分类 · 浏览器书签",
+    "mark": "哔"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "3D",
+    "name": "Textures for 3D, graphic design and Photoshop!",
+    "url": "https://www.textures.com/",
+    "description": "3D · 浏览器书签",
+    "mark": "T"
+  },
+  {
+    "category": "我的书签",
+    "subcategory": "3D",
+    "name": "Mixamo",
+    "url": "https://www.mixamo.com/#/",
+    "description": "3D · 浏览器书签",
+    "mark": "M"
+  },
+  {
     "category": "常用站点",
     "subcategory": "阅读",
     "name": "链接星球(爱达发布页)",
