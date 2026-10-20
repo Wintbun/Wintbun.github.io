@@ -1,5 +1,6 @@
 /* Shared glass surfaces for the notebook and directory. */
 :root {
+  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'PingFang SC', 'Helvetica Neue', 'Segoe UI', 'Microsoft YaHei', sans-serif;
   --glass-surface: rgba(255, 255, 255, .64);
   --glass-solid: #f7f9fd;
   --glass-edge: rgba(255, 255, 255, .88);
@@ -21,7 +22,7 @@ html.dark {
   --glass-muted: #a4b2cb;
   --glass-background: radial-gradient(ellipse at 4% 0%, #1b324f 0, transparent 48%), radial-gradient(ellipse at 93% 20%, #2b2343 0, transparent 44%), #111a29;
 }
-body { background: var(--glass-background); background-attachment: fixed; }
+body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; background: var(--glass-background); background-attachment: fixed; }
 @supports not (backdrop-filter: blur(1px)) {
   :root { --glass-surface: #f7f9fd; }
   html.dark { --glass-surface: #1c2639; }

@@ -55,7 +55,7 @@ body{line-height:1.8}header-component{margin-top:1.4rem}h1,h2,h3{line-height:1.5
 /* Notebook glass theme */
 :root { --primary: 216 55% 44%; --foreground: 218 33% 19%; --muted-foreground: 218 16% 44%; --background: 220 40% 97%; --muted: 220 30% 94%; --border: 217 22% 86%; }
 .dark { --primary: 214 100% 81%; --foreground: 220 50% 94%; --muted-foreground: 220 24% 72%; --background: 218 40% 11%; --muted: 218 30% 17%; --border: 218 22% 26%; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+body { font-family: var(--font-sans); }
 #main-container { position: relative; }
 body header-component, body header-component.not-top, .dark body header-component.not-top {
   padding: 12px 18px;

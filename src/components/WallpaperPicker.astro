@@ -2,7 +2,7 @@
 const wallpapers = [{id: 'mountain', name: '山湖晨光'}, {id: 'forest', name: '雾林秘境'}, {id: 'lake', name: '翡翠湖畔'}]
 ---
 <details class='wallpaper-picker'>
-  <summary>◈ <span>切换壁纸</span></summary>
+  <summary aria-label='切换壁纸'>◈ <span>切换壁纸</span></summary>
   <div class='wallpaper-panel'><p>换一处风景</p><div class='wallpaper-options'>{wallpapers.map((wallpaper, index) => <button type='button' data-wallpaper={wallpaper.id} aria-pressed={index === 0 ? 'true' : 'false'}><img src={'/wallpapers/' + wallpaper.id + '-thumb.webp'} alt='' width='96' height='60' loading='lazy' /><span>{wallpaper.name}</span></button>)}</div><a href='https://unsplash.com/license' target='_blank' rel='noopener noreferrer'>高清风景来自 Unsplash ↗</a></div>
 </details>
 <script>

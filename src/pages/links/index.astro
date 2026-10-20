@@ -31,7 +31,7 @@ const tone = (name: string) => ['blue', 'green', 'orange', 'purple', 'red'][[...
   <div class='portal-main'>
     <header class='portal-hero'>
       <div class='portal-topbar'><div class='topbar-left'><button id='sidebar-toggle' class='icon-button' aria-label='展开或收起分类菜单' aria-controls='portal-sidebar' aria-expanded='false'><Icon name='menu' size={23} /></button><a href='/'><Icon name='home' size={18} /><span>网站首页</span></a><a href='/blog'><Icon name='book' size={18} /><span>我的文章</span></a></div><WallpaperPicker /></div>
-      <div class='hero-search-area'><p class='hero-kicker'>A LITTLE CORNER, A WIDER WORLD</p><h1>把好用的网站，放在一起<span>。</span></h1><div class='search-caption'><span>站内搜索</span><span>从收藏里，找到下一站</span></div><form class='portal-search' role='search'><label class='sr-only' for='portal-query'>搜索网站名称、网址或分类</label><input id='portal-query' type='search' placeholder='搜索网站名称、网址或分类…' autocomplete='off' /><button type='submit' aria-label='搜索网站'><Icon name='search' size={23} /></button></form><nav class='hero-shortcuts' aria-label='快速分类'>{shortcuts.map(group => <a href={'#' + group.id}>{group.name}</a>)}</nav></div>
+      <div class='hero-search-area'><p class='hero-kicker'>A LITTLE CORNER, A WIDER WORLD</p><h1>把好用的网站，放在一起<span>。</span></h1><div class='search-caption'><span>站内搜索</span><span>从收藏里，找到下一站</span></div><form class='portal-search' role='search'><label class='sr-only' for='portal-query'>搜索网站名称、网址或分类</label><input id='portal-query' type='search' placeholder='搜索网站名称、网址或分类…' autocomplete='off' aria-keyshortcuts='/' /><kbd class='search-shortcut' aria-hidden='true'>/</kbd><button type='submit' aria-label='搜索网站'><Icon name='search' size={23} /></button></form><nav class='hero-shortcuts' aria-label='快速分类'>{shortcuts.map(group => <a href={'#' + group.id}>{group.name}</a>)}</nav></div>
     </header>
     <PortalWidgets />
     <main id='navigation-content' class='portal-content'>
@@ -80,7 +80,11 @@ const tone = (name: string) => ['blue', 'green', 'orange', 'purple', 'red'][[...
     function closeMenu() { body.classList.remove('sidebar-open'); menuButton.setAttribute('aria-expanded', 'false') }
     menuButton.addEventListener('click', () => { if (window.matchMedia('(max-width: 900px)').matches) { const open = body.classList.toggle('sidebar-open'); menuButton.setAttribute('aria-expanded', String(open)) } else { body.classList.toggle('sidebar-collapsed'); menuButton.setAttribute('aria-expanded', String(!body.classList.contains('sidebar-collapsed'))) } })
     document.querySelector('.sidebar-backdrop')!.addEventListener('click', closeMenu)
-    document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu() })
+    document.addEventListener('keydown', event => {
+      const editing = event.target instanceof Element && event.target.closest('input, textarea, select, [contenteditable]')
+      if (event.key === '/' && !editing && !event.ctrlKey && !event.metaKey && !event.altKey) { event.preventDefault(); query.focus() }
+      if (event.key === 'Escape') { closeMenu(); if (document.activeElement === query && query.value) { query.value = ''; filter() } }
+    })
     document.querySelectorAll<HTMLAnchorElement>('.sidebar-link, .hero-shortcuts a').forEach(link => link.addEventListener('click', () => { query.value = ''; filter(); closeMenu() }))
     const observer = new IntersectionObserver(entries => { for (const entry of entries) if (entry.isIntersecting) document.querySelectorAll<HTMLAnchorElement>('.sidebar-link').forEach(link => link.classList.toggle('active', link.hash === '#' + entry.target.id)) }, { rootMargin: '-30px 0px -65% 0px' })
     sections.forEach(section => observer.observe(section))
