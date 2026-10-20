@@ -1,0 +1,22 @@
+---
+import PageLayout from '@/layouts/BaseLayout.astro'
+import links from '@/public/navigation.json'
+const categories = [...new Set(links.map(link => link.category))]
+---
+<PageLayout meta={{ title: '网站导航', description: '分类整理学习资料、效率工具与设计灵感的网站导航。' }}>
+<main class="navigation-page"><p class="eyebrow">THE BOOKMARKS</p><h1>网站导航<span> ↗</span></h1><p class="page-intro">好用的网站，值得留一个位置。</p>
+<p class="sample-notice">以下为初始示例收藏，可替换成你的常用网站。</p>
+<label class="nav-search"><span>搜索网站</span><input id="link-search" type="search" placeholder="输入名称或用途，如：笔记、设计…" /></label>
+<div class="filter-tabs" role="group" aria-label="网站分类"><button class="active" data-category="all" aria-pressed="true">全部网站</button>{categories.map(category=><button data-category={category} aria-pressed="false">{category}</button>)}</div>
+<div class="link-grid">{links.map(link=><a class="bookmark" href={link.url} target="_blank" rel="noopener noreferrer" data-category={link.category} data-search={link.name+' '+link.description+' '+link.category}><span class="bookmark-mark">{link.mark}</span><span class="bookmark-body"><small>{link.category}</small><h2>{link.name}</h2><p>{link.description}</p><span class="bookmark-domain">{new URL(link.url).hostname}</span></span><span class="bookmark-arrow" aria-hidden="true">↗</span></a>)}</div>
+<p id="no-links" hidden role="status">还没有找到匹配的网站，试试其他关键词。</p>
+</main></PageLayout>
+<script>
+const input=document.querySelector<HTMLInputElement>('#link-search')!
+const buttons=document.querySelectorAll<HTMLButtonElement>('.filter-tabs button')
+const cards=document.querySelectorAll<HTMLAnchorElement>('.bookmark')
+let selected='all'
+function filter(){let count=0;for(const card of cards){const match=(selected==='all'||card.dataset.category===selected)&&(card.dataset.search||'').toLowerCase().includes(input.value.trim().toLowerCase());card.hidden=!match;if(match)count++}document.querySelector<HTMLElement>('#no-links')!.hidden=count>0}
+input.addEventListener('input',filter)
+buttons.forEach(button=>button.addEventListener('click',()=>{selected=button.dataset.category!;buttons.forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button))});filter()}))
+</script>

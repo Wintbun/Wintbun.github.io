@@ -1,0 +1,65 @@
+[
+  {
+    "category": "学习与阅读",
+    "name": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/zh-CN/",
+    "description": "Web 开发文档与学习资料",
+    "mark": "M"
+  },
+  {
+    "category": "学习与阅读",
+    "name": "维基百科",
+    "url": "https://zh.wikipedia.org/",
+    "description": "自由的百科全书",
+    "mark": "W"
+  },
+  {
+    "category": "学习与阅读",
+    "name": "GitHub",
+    "url": "https://github.com/",
+    "description": "探索开源项目与代码",
+    "mark": "G"
+  },
+  {
+    "category": "效率工具",
+    "name": "Excalidraw",
+    "url": "https://excalidraw.com/",
+    "description": "画流程、整理想法的在线白板",
+    "mark": "E"
+  },
+  {
+    "category": "效率工具",
+    "name": "Notion",
+    "url": "https://www.notion.so/",
+    "description": "笔记、文档与知识整理",
+    "mark": "N"
+  },
+  {
+    "category": "效率工具",
+    "name": "Can I use",
+    "url": "https://caniuse.com/",
+    "description": "查询浏览器对 Web 特性的支持",
+    "mark": "C"
+  },
+  {
+    "category": "设计与灵感",
+    "name": "Figma",
+    "url": "https://www.figma.com/",
+    "description": "界面设计与协作",
+    "mark": "F"
+  },
+  {
+    "category": "设计与灵感",
+    "name": "Unsplash",
+    "url": "https://unsplash.com/",
+    "description": "寻找摄影图片与视觉灵感",
+    "mark": "U"
+  },
+  {
+    "category": "设计与灵感",
+    "name": "Awwwards",
+    "url": "https://www.awwwards.com/",
+    "description": "发现网站设计作品",
+    "mark": "A"
+  }
+]
