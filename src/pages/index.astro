@@ -1,21 +1,4 @@
 ---
-import PageLayout from '@/layouts/BaseLayout.astro'
-import { getBlogCollection, sortMDByDate } from 'astro-pure/server'
-const posts = sortMDByDate(await getBlogCollection()).slice(0, 5)
+import NavigationPage from './links/index.astro'
 ---
-<PageLayout meta={{ title: '首页' }}>
-  <main class="rabbit-home">
-    <section class="rabbit-hero animate" id="content-header">
-      <div><p class="eyebrow">A SMALL CORNER OF THE INTERNET</p>
-      <h1>慢慢记录，<br />让日子有迹可循<span>。</span></h1>
-      <p class="intro">这里是不会游泳的兔子的小站。<br />放一些文字，留一些想法，收藏一些好用的网站。</p>
-      <div class="hero-actions"><a class="primary-action" href="/blog">翻开手记 <span>↗</span></a><a href="/links">逛逛网站导航 →</a></div></div>
-      <div class="rabbit-drawing"><span class="orbit o1"></span><span class="orbit o2"></span><img src="/rabbit.svg" width="190" height="190" alt="一只安静的兔子" /><span class="drawing-note">不赶路，也会到达。</span></div>
-    </section>
-    <section class="home-posts animate" id="content">
-      <div class="section-heading"><div><p class="eyebrow">THE NOTEBOOK</p><h2>最近的记录</h2></div><a href="/blog">全部文章 →</a></div>
-      <div class="post-list">{posts.map(post => <a class="home-post" href={'/blog/' + post.id}><time datetime={post.data.publishDate.toISOString()}>{post.data.publishDate.toLocaleDateString('zh-CN', { year:'numeric', month:'2-digit', day:'2-digit', timeZone:'Asia/Shanghai' })}</time><div><div class="post-category">{post.data.tags.join(' / ')}</div><h3>{post.data.title}</h3><p>{post.data.description}</p></div><span aria-hidden="true">↗</span></a>)}</div>
-    </section>
-    <section class="home-navigation"><div><p class="eyebrow">A FEW GOOD PLACES</p><h2>把好用的网站，放在一起。</h2><p>学习资料、日常工具和灵感去处，下次需要时不用再找。</p></div><a href="/links">打开网站导航 ↗</a></section>
-  </main>
-</PageLayout>
+<NavigationPage />

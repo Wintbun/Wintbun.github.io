@@ -22,11 +22,11 @@ const tone = (name: string) => ['blue', 'green', 'orange', 'purple', 'red'][[...
   <aside id='portal-sidebar' class='portal-sidebar' aria-label='网站分类'>
     <a class='portal-brand' href='/'><img src='/rabbit.svg' alt='' width='43' height='43' /><span><strong>不会游泳的兔子</strong><small>个人手记 · 网站导航</small></span></a>
     <nav class='sidebar-categories'>{groups.map((group, index) => <a class:list={['sidebar-link', { active: index === 0 }]} href={'#' + group.id} title={group.name}><Icon name={group.icon} /><span>{group.name}</span><Icon name='chevron' size={13} class='category-chevron' /></a>)}</nav>
-    <nav class='sidebar-bottom' aria-label='博客导航'><a href='/'><Icon name='home' /><span>博客首页</span></a><a href='/blog'><Icon name='book' /><span>我的文章</span></a><a href='/about'><Icon name='link' /><span>关于小站</span></a></nav>
+    <nav class='sidebar-bottom' aria-label='博客导航'><a href='/'><Icon name='home' /><span>网站首页</span></a><a href='/blog'><Icon name='book' /><span>我的文章</span></a><a href='/about'><Icon name='link' /><span>关于小站</span></a></nav>
   </aside>
   <div class='portal-main'>
     <header class='portal-hero'>
-      <div class='portal-topbar'><div class='topbar-left'><button id='sidebar-toggle' class='icon-button' aria-label='展开或收起分类菜单' aria-controls='portal-sidebar' aria-expanded='false'><Icon name='menu' size={23} /></button><a href='/'><Icon name='home' size={18} /><span>博客首页</span></a><a href='/blog'><Icon name='book' size={18} /><span>我的文章</span></a></div><a class='topbar-about' href='/about'>一只兔子的网上漫游</a></div>
+      <div class='portal-topbar'><div class='topbar-left'><button id='sidebar-toggle' class='icon-button' aria-label='展开或收起分类菜单' aria-controls='portal-sidebar' aria-expanded='false'><Icon name='menu' size={23} /></button><a href='/'><Icon name='home' size={18} /><span>网站首页</span></a><a href='/blog'><Icon name='book' size={18} /><span>我的文章</span></a></div><a class='topbar-about' href='/about'>一只兔子的网上漫游</a></div>
       <div class='hero-search-area'><p class='hero-kicker'>A LITTLE CORNER, A WIDER WORLD</p><h1>把好用的网站，放在一起<span>。</span></h1><div class='search-caption'><span>站内搜索</span><span>从收藏里，找到下一站</span></div><form class='portal-search' role='search'><label class='sr-only' for='portal-query'>搜索网站名称、网址或分类</label><input id='portal-query' type='search' placeholder='搜索网站名称、网址或分类…' autocomplete='off' /><button type='submit' aria-label='搜索网站'><Icon name='search' size={23} /></button></form><nav class='hero-shortcuts' aria-label='快速分类'>{shortcuts.map(group => <a href={'#' + group.id}>{group.name}</a>)}</nav></div>
     </header>
     <main id='navigation-content' class='portal-content'>
