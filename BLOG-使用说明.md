@@ -31,11 +31,11 @@ comment: false
 
 ## 提交与发布
 
-博客源码仓库：https://github.com/lxl179233/lxl179233.github.io 。正式网址：https://lxl179233.github.io 。
+博客源码仓库：https://github.com/Wintbun/Wintbun.github.io 。正式网址：https://wintbun.github.io 。
 
-GitHub Pages 自动发布文件已准备在 `.github/workflows/pages.yml`。使用个人站点仓库 `lxl179233/lxl179233.github.io`，在仓库 Settings → Pages → Source 选择 GitHub Actions。此仓库名可以使网站运行在域名根路径，主题内的链接无需加前缀。发布流程使用 GitHub 内置的临时令牌，无需配置个人访问令牌。
+GitHub Pages 自动发布文件已准备在 `.github/workflows/pages.yml`。使用个人站点仓库 `Wintbun/Wintbun.github.io`，在仓库 Settings → Pages → Source 选择 GitHub Actions。此仓库名可以使网站运行在域名根路径，主题内的链接无需加前缀。发布流程使用 GitHub 内置的临时令牌，无需配置个人访问令牌。
 
-之后提交到 main 分支会自动安装依赖、生成静态页面并发布到 https://lxl179233.github.io 。文章文件在 `src/content/blog/`，可以直接在 GitHub 网页上新增或编辑，点击 Commit changes 提交。
+之后提交到 main 分支会自动安装依赖、生成静态页面并发布到 https://wintbun.github.io 。文章文件在 `src/content/blog/`，可以直接在 GitHub 网页上新增或编辑，点击 Commit changes 提交。
 
 提交后可到仓库 Actions 页面查看进度；“发布个人博客”流程成功后，更新会出现在正式网址。如果流程失败，打开失败步骤查看原因。
 

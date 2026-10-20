@@ -2,7 +2,7 @@
 
 个人博客与网站导航，基于 [Astro Theme Pure](https://github.com/cworld1/astro-theme-pure)。
 
-**博客地址：https://lxl179233.github.io**
+**博客地址：https://wintbun.github.io**
 
 ## 写文章
 
