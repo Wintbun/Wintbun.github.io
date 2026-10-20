@@ -24,7 +24,7 @@ import config from './src/site.config.ts'
 // https://astro.build/config
 export default defineConfig({
   // [Basic]
-  site: process.env.BLOG_SITE_URL || 'https://shiguang-notes-20261020.xiaolinlu425.chatgpt.site',
+  site: process.env.BLOG_SITE_URL || 'https://lxl179233.github.io',
   // Deploy to a sub path
   // https://astro-pure.js.org/docs/setup/deployment#platform-with-base-path
   // base: '/astro-pure/',
