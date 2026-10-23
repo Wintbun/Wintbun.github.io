@@ -1,0 +1,21 @@
+---
+import analytics from '@/analytics.config'
+
+const websiteId = analytics.websiteId.trim()
+const validId = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(websiteId)
+if (websiteId && !validId) throw new Error('Umami Website ID must be a UUID, not an account password or API key.')
+const enabled = import.meta.env.PROD && validId
+---
+{
+  enabled && <script
+    is:inline
+    defer
+    src='https://cloud.umami.is/script.js'
+    data-website-id={websiteId}
+    data-domains={analytics.domains.join(',')}
+    data-exclude-search='true'
+    data-exclude-hash='true'
+    data-do-not-track='true'
+    data-performance='false'
+  ></script>
+}

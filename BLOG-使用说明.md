@@ -50,3 +50,9 @@ GitHub Pages 自动发布文件已准备在 `.github/workflows/pages.yml`。使�
 首页接入无需密钥的免费服务：Open-Meteo 天气（个人非商业使用）、一言诗词、Frankfurter / ECB 每日参考汇率。城市默认为北京，可在天气卡片切换。数据使用浏览器缓存减少请求，网络失败时显示提示，汇率标注实际数据日期。
 
 接口说明：https://open-meteo.com/en/docs 、https://developer.hitokoto.cn/sentence/ 、https://frankfurter.dev/ 。
+
+## 私有访问统计
+
+已接入 Umami，登录 https://cloud.umami.is/ ，打开「不会游泳的兔子」查看访问量、每日趋势和热门页面。保持分享链接关闭，统计仅在你的登录后台查看。
+
+配置在 `src/analytics.config.ts`，两个正式域名共用同一 Website ID，从接入后开始记录，不能补录历史。浏览器拦截脚本或启用 Do Not Track 时，访问可能不会计入。
