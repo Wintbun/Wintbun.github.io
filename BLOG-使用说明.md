@@ -56,3 +56,6 @@ GitHub Pages 自动发布文件已准备在 `.github/workflows/pages.yml`。使�
 已接入 Umami，登录 https://cloud.umami.is/ ，打开「不会游泳的兔子」查看访问量、每日趋势和热门页面。保持分享链接关闭，统计仅在你的登录后台查看。
 
 配置在 `src/analytics.config.ts`，两个正式域名共用同一 Website ID，从接入后开始记录，不能补录历史。浏览器拦截脚本或启用 Do Not Track 时，访问可能不会计入。
+## 导航来源排序
+
+新增导航综合酷啦鱼、虫部落快搜、迷鹿导航、终极导航和 AIGCLIST。`public/navigation.json` 的 `sourceCount` 表示在这五个来源中的收录次数，`sources` 为公开来源网址；分类内按次数降序，多站收录的卡片显示「几站收录」。整理范围与去重规则见 `NAVIGATION-SOURCES.md`。原有个人收藏与书签继续保留。
